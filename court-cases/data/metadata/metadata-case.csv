@@ -1,0 +1,17 @@
+column_name, type, raw_data_index
+id, INT NOT NULL AUTO_INCREMENT,
+circuit, VARCHAR(225) NOT NULL, 1
+district, VARCHAR(225) NOT NULL, 2
+office, VARCHAR(225) NOT NULL, 3
+docket, VARCHAR(225) NOT NULL, 4
+defendant_no, VARCHAR(225) UNIQUE NOT NULL, 5
+status_code, VARCHAR (225), 16
+proceeding_date, DATE, 21
+proceeding_code, VARCHAR (225), 22
+f_counsel, VARCHAR (225), 26
+t_counsel, VARCHAR (225), 66
+county, VARCHAR (225), 52
+term_date, DATE, 60
+prison_tot, FLOAT, 127
+prob_tot, FLOAT, 128
+fine_tot, FLOAT, 129

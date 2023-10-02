@@ -1,0 +1,6 @@
+column_name, type, raw_data_index
+defendant_no, VARCHAR(225) UNIQUE NOT NULL, 5
+filing_order, INT,
+offense_level, VARCHAR (225), 28 33 38 43 48
+offense, VARCHAR (225), 30 35 40 45 50
+severity, VARCHAR (225), 31 36 41 46 51

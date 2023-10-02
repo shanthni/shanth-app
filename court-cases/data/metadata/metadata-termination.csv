@@ -1,0 +1,10 @@
+column_name, type, raw_data_index
+defendant_no, VARCHAR(225) UNIQUE NOT NULL, 5
+filing_order, INT,
+offense_level, VARCHAR (225), 68 80 92 104 116
+offense, VARCHAR (225), 70 82 94 106 118
+severity, VARCHAR (225), 71 83 95 107 119
+disposition, VARCHAR (225), 72 84 96 108 120
+prison_time, FLOAT, 73 85 97 109 121
+prob_time, FLOAT, 75 87 99 111 123
+fine, FLOAT, 78 90 102 114 126
