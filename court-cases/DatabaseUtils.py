@@ -10,7 +10,7 @@ class DatabaseHandler:
                                        db=db,
                                        cursorclass=pymysql.cursors.DictCursor,
                                        charset='utf8mb4')
-        except:
+        except pymysql.Error as e:
             DatabaseHandler.create_database(host, user, password, db)
             self.con = pymysql.connect(host=host,
                                        user=user,
@@ -32,17 +32,24 @@ class DatabaseHandler:
 
     @staticmethod
     def drop_database(host, user, password, db):
-        try:
-            con = pymysql.connect(host=host,
-                                  user=user,
-                                  password=password,
-                                  cursorclass=pymysql.cursors.DictCursor)
-            with con:
-                cur = con.cursor()
-                qry = "DROP DATABASE {}".format(db)
-                cur.execute(qry)
-        except:
-            print("There was an error Dropping Database")
+        con = pymysql.connect(host=host,
+                              user=user,
+                              password=password,
+                              cursorclass=pymysql.cursors.DictCursor)
+        with con:
+            cur = con.cursor()
+            qry = "DROP DATABASE {}".format(db)
+            cur.execute(qry)
+
+    def create_table(self, name, attributes):
+        cur = self.get_cur()
+
+        field_format = (',\n'.join(['{} {}'.format(i, attributes[i]) for i in attributes]))
+
+        qry = 'CREATE TABLE IF NOT EXISTS {} (\n{}\n)'.format(name, field_format)
+
+        cur.execute(qry)
+        self.commit()
 
     def get_con(self):
         return self.con
@@ -51,11 +58,13 @@ class DatabaseHandler:
         cur = self.con.cursor()
         return cur
 
+    @staticmethod
     def execute(self, cur, qry):
         cur.execute(qry)
 
     def commit(self):
         self.con.commit()
 
+    @staticmethod
     def fetch_all(self, cur):
         return cur.fetchall()
