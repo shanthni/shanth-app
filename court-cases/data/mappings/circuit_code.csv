@@ -1,5 +1,4 @@
-IDB_id,circuit
-00,District of Columbia
+IDB_id,meaning
 01,First Circuit
 02,Second Circuit
 03,Third Circuit
@@ -11,3 +10,4 @@ IDB_id,circuit
 09,Ninth Circuit
 10,Tenth Circuit
 11,Eleventh Circuit
+00,District of Columbia

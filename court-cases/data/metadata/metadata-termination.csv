@@ -1,13 +1,12 @@
-column_name,type,raw_data_index
-defendant_no,VARCHAR(225) UNIQUE NOT NULL,5
-filing_order,INT,
-offense_level,VARCHAR (225),68 80 92 104 116
-offense,VARCHAR (225),70 82 94 106 118
-prison_sev,VARCHAR(225),71 83 95 107 119
-crime_sev,VARCHAR(225),71 83 95 107 119
-fine_sev,VARCHAR(225),71 83 95 107 119
-disposition,VARCHAR (225),72 84 96 108 120
-prison_time,FLOAT,73 85 97 109 121
-prison_tc,INT,73 85 97 109 121
-prob_time,FLOAT,75 87 99 111 123
-fine,FLOAT,78 90 102 114 126
+new_name,old_name
+id,id
+offense_levelIDB,TOFFLVL
+offenseIDB,D2TOFFCD
+prison_sevIDB,t_sev_pris
+crime_sevIDB,t_sev_off
+fine_sevIDB,t_sev_fine
+dispositionIDB,DISP
+prison_time,PRISTIM
+prison_tcIDB,pris_tc
+prob_time,PROBMON
+fine,FINEAMT

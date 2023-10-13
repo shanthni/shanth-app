@@ -1,20 +1,20 @@
-column_name,type,raw_data_index
-id,INT NOT NULL AUTO_INCREMENT,
-circuit,VARCHAR(225) NOT NULL,1
-district,VARCHAR(225) NOT NULL,2
-office,VARCHAR(225) NOT NULL,3
-docket,VARCHAR(225) NOT NULL,4
-defendant_no,VARCHAR(225) NOT NULL,5
-reopened_seq,INT,8
-defendant_key,VARCHAR(225) UNIQUE NOT NULL,12
-status_code,VARCHAR (225),16
-proceeding_date,DATE,21
-proceeding_code,VARCHAR (225),22
-f_counsel,VARCHAR (225),26
-t_counsel,VARCHAR (225),66
-county,VARCHAR (225),52
-term_date,DATE,60
-prison_tot,FLOAT,127
-prison_tc,INT,127
-prob_tot,FLOAT,128
-fine_tot,FLOAT,129
+new_name,old_name
+id,id
+circuitIDB,CIRCUIT_
+districtIDB,DISTRICT_
+countyIDB,COUNTY_
+office,OFFICE_
+docket,DOCKET_
+defendant_no,DEFNO_
+reopened_seq,REOPSEQ_
+defendant_key,DEFLGKY_
+status_code,STATUSCD_
+proceeding_date,PROCDATE_
+proceeding_codeIDB,PROCCD_
+f_counselIDB,FCOUNSEL_
+t_counselIDB,TCOUNSEL_
+term_date,TERMDATE_
+prison_tot,PRISTOT_
+prison_tcIDB,prison_tc_
+prob_tot,PROBTOT_
+fine_tot,FINETOT_
