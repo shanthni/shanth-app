@@ -1,4 +1,4 @@
-from .DatabaseUtils import DatabaseHandler
+from database_layer.DatabaseUtils import DatabaseHandler
 import json
 
 
@@ -9,12 +9,12 @@ class CaseDBHandler:
         self.db = DatabaseHandler(creds['host'], creds['user'], creds['password'], 'casedata')
 
     def create_staging_table(self, column_names, column_types):
+        cur = self.db.get_cur()
 
         fields = dict()
         fields['id'] = 'INT AUTO_INCREMENT PRIMARY KEY'
         for i in range(0, len(column_names)):
-            column_name = str(column_names[i])[2:-1] + '_'
-
+            column_name = column_names[i]
             if column_types[i] == 'string':
                 fields[column_name] = "VARCHAR (50)"
             elif column_types[i] == 'number':
@@ -27,28 +27,17 @@ class CaseDBHandler:
 
         self.db.create_table('staging', fields)
 
+        qry = "CREATE INDEX staging_DEFLGKY ON staging (DEFLGKY_)"
+        cur.execute(qry)
+        self.db.commit()
+
     def load_staging_data(self, fields, data):
 
         cur = self.db.get_cur()
-        qry = 'INSERT INTO staging ({}) VALUES({})'.format(', '.join([i for i in fields.keys() if i != 'id']),
-                                                           ', '.join(['%s'] * (len(fields) - 1)))
-
-        x = 0
-        for record in data:
-            x += 1
-            if x != 0 and x % 100000 == 0:
-                cur.executemany(qry, data)
-                self.db.commit()
-                print("Loaded {} records".format(x))
-                data = []
+        qry = 'INSERT INTO staging ({}) VALUES({})'.format(', '.join(fields),
+                                                           ', '.join(['%s'] * (len(fields))))
 
         cur.executemany(qry, data)
-        self.db.commit()
-        print("Loaded {} records, all done!\n".format(x))
-
-        qry = "CREATE INDEX staging_DEFLGKY ON staging (DEFLGKY_)"
-        cur.execute(qry)
-
         self.db.commit()
 
     def load_mapping(self, name, attributes, data):
@@ -76,10 +65,8 @@ class CaseDBHandler:
 
         cur.execute(qry)
         self.db.commit()
-        print('Created table of ids for non-duplicated cases')
 
     def load_cases(self, attributes):
-        self.find_unique_ids()
 
         cur = self.db.get_cur()
 

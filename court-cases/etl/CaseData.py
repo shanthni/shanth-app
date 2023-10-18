@@ -1,21 +1,20 @@
 import csv
 import os
 import json
-
 from sas7bdat import SAS7BDAT
 from database_layer.CaseDataHandler import CaseDBHandler
 
 
 class CDLoader:
     def __init__(self, config):
-        self.raw_data = SAS7BDAT('../data/cases-data/raw-data/cr18to23.sas7bdat', skip_header=True)
+        self.raw_data = SAS7BDAT('./data/cases-data/raw-data/cr18to23.sas7bdat', skip_header=True)
 
-        self.termination_metadata = open('../data/cases-data/metadata/metadata-termination.csv', encoding="utf-8")
-        self.filing_metadata = open('../data/cases-data/metadata/metadata-filing.csv', encoding="utf-8")
-        self.case_metadata = open('../data/cases-data/metadata/metadata-case.csv', encoding="utf-8")
+        self.termination_metadata = open('./data/cases-data/metadata/metadata-termination.csv', encoding="utf-8")
+        self.filing_metadata = open('./data/cases-data/metadata/metadata-filing.csv', encoding="utf-8")
+        self.case_metadata = open('./data/cases-data/metadata/metadata-case.csv', encoding="utf-8")
 
-        self.mapped_fields = open('../data/cases-data/metadata/mappings.json')
-        self.mappings = os.listdir('../data/cases-data/mappings')
+        self.mapped_fields = open('./data/cases-data/metadata/mappings.json')
+        self.mappings = os.listdir('./data/cases-data/mappings')
 
         self.DBHandler = CaseDBHandler(config)
 
@@ -32,7 +31,7 @@ class CDLoader:
         self.load_mappings()
 
     def create_staging_table(self):
-        fields = self.raw_data.column_names
+        fields = [str(i)[2:-1] + '_' for i in self.raw_data.column_names]
         types = self.raw_data.column_types
 
         for i in range(0, 5):
@@ -54,7 +53,9 @@ class CDLoader:
         fields = self.create_staging_table()
         data = []
 
+        x = 0
         for record in self.raw_data:
+            x += 1
             for i in [31, 71, 36, 83, 41, 95, 46, 107, 51, 119]:
                 if record[i] != '-8':
                     record.extend([record[i][0], record[i][1], record[i][2]])
@@ -70,7 +71,13 @@ class CDLoader:
 
             data.append(tuple(record))
 
+            if x != 0 and x % 100000 == 0:
+                self.DBHandler.load_staging_data(fields, data)
+                data = []
+                print(f'Loaded {x}')
+
         self.DBHandler.load_staging_data(fields, data)
+
         print('Finished loading staging data\n')
 
     def load_mappings(self):
@@ -87,24 +94,24 @@ class CDLoader:
 
     def load_case_data(self):
 
-        attributes = list(self.case_metadata)[1:]
+        attributes = list(csv.reader(self.case_metadata))[1:]
 
         self.DBHandler.find_unique_ids()
         self.DBHandler.load_cases(attributes)
         print('Loaded case data\n')
 
     def load_filing_data(self):
-        attributes = list(self.filing_metadata)[1:]
+        attributes = list(csv.reader(self.filing_metadata))[1:]
         offense_type = 'filing'
         abbr = 'F'
-        self.DBHandler.load_offense(attributes, offense_type, abbr)
+        self.DBHandler.load_offenses(attributes, offense_type, abbr)
         print('Loaded filing data\n')
 
     def load_termination_data(self):
-        attributes = list(self.termination_metadata)[1:]
+        attributes = list(csv.reader(self.termination_metadata))[1:]
         offense_type = 'termination'
         abbr = 'T'
-        self.DBHandler.load_offense(attributes, offense_type, abbr)
+        self.DBHandler.load_offenses(attributes, offense_type, abbr)
         print('Loaded termination data\n')
 
     def map_data(self):
