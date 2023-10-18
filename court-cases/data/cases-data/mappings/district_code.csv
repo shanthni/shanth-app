@@ -1,0 +1,95 @@
+IDB_id,meaning
+00,Maine
+01,Massachusetts
+02,New Hampshire
+03,Rhode Island
+04,Puerto Rico
+05,Connecticut
+06,New York - Northern
+07,New York - Eastern
+08,New York - Southern
+09,New York - Western
+10,Vermont
+11,Delaware
+12,New Jersey
+13,Pennsylvania - Eastern
+14,Pennsylvania - Middle
+15,Pennsylvania - Western
+16,Maryland
+17,North Carolina - Eastern
+18,North Carolina - Middle
+19,North Carolina - Western
+20,South Carolina
+22,Virginia - Eastern
+23,Virginia - Western
+24,West Virginia - Northern
+25,West Virginia - Southern
+26,Alabama - Northern
+27,Alabama - Middle
+28,Alabama - Southern
+29,Florida - Northern
+3A,Florida - Middle
+3C,Florida - Southern
+3E,Georgia - Northern
+3G,Georgia - Middle
+3J,Georgia - Southern
+3L,Louisiana - Eastern
+3N,Louisiana - Middle
+36,Louisiana - Western
+37,Mississippi - Northern
+38,Mississippi - Southern
+39,Texas - Northern
+40,Texas - Eastern
+41,Texas - Southern
+42,Texas - Western
+43,Kentucky - Eastern
+44,Kentucky – Western
+45,Michigan - Eastern
+46,Michigan - Western
+47,Ohio - Northern
+48,Ohio - Southern
+49,Tennessee - Eastern
+50,Tennessee - Middle
+51,Tennessee - Western
+52,Illinois - Northern
+53,Illinois - Central
+54,Illinois - Southern
+55,Indiana - Northern
+56,Indiana - Southern
+57,Wisconsin - Eastern
+58,Wisconsin - Western
+60,Arkansas - Eastern
+61,Arkansas - Western
+62,Iowa - Northern
+63,Iowa - Southern
+64,Minnesota
+65,Missouri - Eastern
+66,Missouri - Western
+67,Nebraska
+68,North Dakota
+69,South Dakota
+7-,Alaska
+70,Arizona
+71,California - Northern
+72,California - Eastern
+73,California - Central
+74,California - Southern
+75,Hawaii
+76,Idaho
+77,Montana
+78,Nevada
+79,Oregon
+80,Washington - Eastern
+81,Washington - Western
+82,Colorado
+83,Kansas
+84,New Mexico
+85,Oklahoma - Northern
+86,Oklahoma - Eastern
+87,Oklahoma - Western
+88,Utah
+89,Wyoming
+90,District of Columbia
+91,Virgin Islands
+93,Guam
+94,Northern Mariana Islands

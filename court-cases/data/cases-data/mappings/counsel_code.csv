@@ -1,0 +1,10 @@
+IDB_id,meaning
+0,Type of counsel not reported
+1,Criminal Justice Act (CJA) appointment
+2,Private counsel
+3,Pro se
+4,Self (expired 1990)
+5,None/other
+6,Public defender/community defender
+7,Pro bono
+-8,Missing data

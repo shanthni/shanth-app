@@ -1,0 +1,14 @@
+IDB_id,meaning
+A,0 months
+B,Less than 6 months
+C,7 months to 1 year
+0,1-2 years
+1,2-3 years
+2,4-5 years
+3,6-10 years
+4,11-15 years
+5,15-20 years
+6,21-25 years
+7,Over 25 years
+8,Life
+9,Death
