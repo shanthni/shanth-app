@@ -30,7 +30,7 @@ class CDLoader:
 
         self.load_mappings()
 
-    def create_staging_table(self):
+    def create_staging_attributes(self):
         fields = [str(i)[2:-1] + '_' for i in self.raw_data.column_names]
         types = self.raw_data.column_types
 
@@ -50,7 +50,7 @@ class CDLoader:
 
     def load_staging_data(self):
 
-        fields = self.create_staging_table()
+        fields = self.create_staging_attributes()
         data = []
 
         x = 0
@@ -74,7 +74,7 @@ class CDLoader:
             if x != 0 and x % 100000 == 0:
                 self.DBHandler.load_staging_data(fields, data)
                 data = []
-                print(f'Loaded {x}')
+                print(f'Loaded {x} records')
 
         self.DBHandler.load_staging_data(fields, data)
 
