@@ -5,7 +5,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function MyNavbar() {
 	return (
-		<>
+
         <Navbar expand="lg" className="bg-body-tertiary"
             style={{marginLeft:'0px'}}
         >
@@ -39,7 +39,7 @@ function MyNavbar() {
           </Container>
 
         </Navbar>
-		</>
+
 	);
 };
 

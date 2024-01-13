@@ -129,3 +129,4 @@ class CaseDBHandler:
                 cur.execute(qry)
 
                 self.db.commit()
+                print(f"Updated {new_column}")

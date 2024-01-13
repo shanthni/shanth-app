@@ -28,7 +28,7 @@ class CDLoader:
         self.load_filing_data()
         self.load_termination_data()
 
-        self.load_mappings()
+        self.map_data()
 
     def create_staging_attributes(self):
         fields = [str(i)[2:-1] + '_' for i in self.raw_data.column_names]
