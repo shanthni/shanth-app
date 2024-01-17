@@ -16,15 +16,27 @@ class GISDBHandler:
 
         self.db.create_table('GIS', attributes)
 
+    def create_coordinate_table(self, fields):
+        attributes = {
+            i: "DOUBLE" if i != 'state_name' else 'VARCHAR(50)' for i in fields
+        }
+
+        self.db.create_table('gis_state_coordinates', attributes)
+
+    def load_coordinate_data(self, fields, data):
+
+        cur = self.db.get_cur()
+
+        qry = f'INSERT INTO gis_state_coordinates ({", ".join(fields)}) VALUES (%s, %s, %s)'
+
+        cur.executemany(qry, data)
+
     def load_gis_data(self, fields, data):
         cur = self.db.get_cur()
         qry = 'INSERT INTO gis ({}) VALUES({})'.format(', '.join(fields),
                                                        ', '.join(['%s'] * (len(fields))))
 
         cur.executemany(qry, data)
-
-        qry = f"CREATE INDEX gis_county_code ON gis (county_code)"
-        cur.execute(qry)
 
         self.db.commit()
 
@@ -44,7 +56,7 @@ class GISDBHandler:
         cur.executemany(qry, data)
         self.db.commit()
 
-    def update_county_ids(self):
+    def update_gis_ids(self):
         cur = self.db.get_cur()
 
         qry = f'ALTER TABLE gis ADD COLUMN county INT'
@@ -65,3 +77,19 @@ class GISDBHandler:
         cur.execute(qry)
 
         self.db.commit()
+
+    def update_coordinate_ids(self):
+        cur = self.db.get_cur()
+
+        qry = f'ALTER TABLE gis_state_coordinates ADD COLUMN state INT'
+        cur.execute(qry)
+
+        qry = """UPDATE gis_state_coordinates INNER JOIN state_code ON 
+                        gis_state_coordinates.state_name = state_code.meaning SET state = state_code.id"""
+        cur.execute(qry)
+
+        qry = f'ALTER TABLE gis_state_coordinates DROP COLUMN state_name'
+        cur.execute(qry)
+
+        self.db.commit()
+

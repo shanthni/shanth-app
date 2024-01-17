@@ -7,7 +7,7 @@ import {
     Route,
 } from "react-router-dom";
 import Home from "./pages/Home";
-import Cases from "./pages/CriminalCases"
+import Cases from "./pages/criminal-cases/CriminalCases"
  
 function App() {
     return (
