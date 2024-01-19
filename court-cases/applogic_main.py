@@ -14,5 +14,11 @@ def county_data_api(state):
     return jsonify(county_API.county_data(state))
 
 
+@app.route('/county-cases/<int:county>', methods=['GET'])
+@cross_origin()
+def county_cases_api(county):
+    return jsonify(county_API.county_cases(county))
+
+
 if __name__ == '__main__':
     app.run(debug=True)

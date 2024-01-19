@@ -59,21 +59,37 @@ class GISDBHandler:
     def update_gis_ids(self):
         cur = self.db.get_cur()
 
-        qry = f'ALTER TABLE gis ADD COLUMN county INT'
+        qry = 'ALTER TABLE gis ADD COLUMN county INT'
         cur.execute(qry)
 
-        qry = f"""UPDATE gis INNER JOIN county_code ON gis.county_code = county_code.IDB_id SET 
+        qry = """UPDATE gis INNER JOIN county_code ON gis.county_code = county_code.IDB_id SET 
                   county = county_code.id"""
         cur.execute(qry)
 
-        qry = f'ALTER TABLE gis ADD COLUMN state INT'
+        qry = 'ALTER TABLE gis ADD COLUMN state INT'
         cur.execute(qry)
 
-        qry = f"""UPDATE gis INNER JOIN state_code ON gis.state_code = state_code.IDB_id SET 
+        qry = """UPDATE gis INNER JOIN state_code ON gis.state_code = state_code.IDB_id SET 
                           state = state_code.id"""
         cur.execute(qry)
 
-        qry = f'ALTER TABLE gis DROP COLUMN state_code'
+        qry = 'ALTER TABLE gis DROP COLUMN state_code'
+        cur.execute(qry)
+
+        qry = 'ALTER TABLE gis DROP COLUMN county_code'
+        cur.execute(qry)
+
+        self.db.commit()
+
+    def get_case_counts(self):
+        cur = self.db.get_cur()
+
+        qry = 'ALTER TABLE gis ADD COLUMN case_count INT'
+        cur.execute(qry)
+
+        qry = """UPDATE gis JOIN (SELECT a.gis_id, COUNT(*) as case_count FROM (SELECT gis.id as gis_id 
+                FROM case_data JOIN gis ON case_data.county = gis.county) a GROUP BY a.gis_id) counts ON 
+                counts.gis_id = gis.id SET gis.case_count = counts.case_count"""
         cur.execute(qry)
 
         self.db.commit()

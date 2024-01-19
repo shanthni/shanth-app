@@ -12,9 +12,9 @@ class GISDataLoader:
 
     def do_load(self):
         self.load_gis_data()
-        self.load_state_mappings()
+        # self.load_state_mappings()
         self.update_gis_ids()
-        self.load_center_coordinates()
+        # self.load_center_coordinates()
 
     def create_gis_attributes(self):
         attributes = ['state_code', 'county_code', 'county_name', 'GEOid', 'GEOdata']
@@ -58,7 +58,6 @@ class GISDataLoader:
         self.DBHandler.update_coordinate_ids()
         print('Updated state ids\n')
 
-
     def load_state_mappings(self):
 
         with open('./data/gis-data/mappings/state_code.csv', encoding="utf-8", mode='r') as f:
@@ -72,3 +71,6 @@ class GISDataLoader:
     def update_gis_ids(self):
         self.DBHandler.update_gis_ids()
         print('Updated county and state IDs')
+
+        self.DBHandler.get_case_counts()
+        print('Added case counts for each county')

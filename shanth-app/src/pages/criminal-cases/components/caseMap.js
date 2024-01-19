@@ -2,29 +2,45 @@ import { MapContainer, GeoJSON } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 
 
-function CaseMap({county}) {
+function CaseMap({county_geo, setCounty}) {
 
-    if (county) {
-    return (
+    if (county_geo) {
 
-        <div>
-            <h3 style={{ textAlign: "center" }}>{county.name.meaning}</h3>
+        function changeCounty(e) {
+            setCounty(e.target.feature.properties.county_id)
+        }
 
-            <MapContainer
-                key={county.name.meaning}
-                style={{ height: "400px", width: "600px" }}
-                zoom={7}
-                center={county.coordinates}>
-              <GeoJSON
+        function onEachFeature(feature, layer) {
+            if (feature.properties) {
+                layer.bindPopup(feature.properties.NAME);
+            }
+            layer.on({
+                click: changeCounty
+            });
+        }
 
-                data={county.features}
-              />
-            </MapContainer>
+        return (
 
+            <div>
+                <h3 style={{ textAlign: "center", marginBottom: "30px" }}>
+                    {county_geo.name.meaning.charAt(0) + county_geo.name.meaning.slice(1).toLowerCase()} County Map</h3>
 
-        </div>
+                <MapContainer
+                    key={county_geo.name.meaning}
+                    style={{ height: "400px", width: "600px" }}
+                    zoom={7}
+                    center={county_geo.coordinates}>
 
-    );
+                  <GeoJSON
+                    data={county_geo.features}
+                    onEachFeature = {onEachFeature}
+
+                  />
+                </MapContainer>
+    
+            </div>
+
+        );
     }
 
     return (
@@ -33,6 +49,8 @@ function CaseMap({county}) {
         </div>
 
     )
+
+
 }
 
 export default CaseMap;

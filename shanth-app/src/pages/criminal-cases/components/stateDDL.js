@@ -1,7 +1,7 @@
 import Form from 'react-bootstrap/Form';
 import States from '../data/StateOptions.json'
 
-function StateDDL({state, setState}) {
+function StateDDL({state, setState, setCounty}) {
 
 
     return (
@@ -11,11 +11,12 @@ function StateDDL({state, setState}) {
         style={{
                     maxWidth: "300px",
                 }}
-        onChange = {e => setState(e.target.value)}
+        onChange = {e => {setState(e.target.value)
+                          setCounty(0)} }
     >
       {
 
-        States.States.map((result) => (<option value={result.id}> {result.state}
+        States.States.map((result) => (<option key={result.id} value={result.id}> {result.state}
                                         </option>))
 
       }
