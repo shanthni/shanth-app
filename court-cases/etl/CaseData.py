@@ -44,6 +44,9 @@ class CDLoader:
 
         types.extend(['string'] * (len(fields) - len(types)))
 
+        fields.append('state_')
+        types.append('string')
+
         self.DBHandler.create_staging_table(fields, types)
         print('Created Staging Table\n')
         return fields
@@ -68,6 +71,8 @@ class CDLoader:
                     record[i] = None
                 else:
                     record.append(None)
+
+            record.append(record[52][:2] if len(record[52]) == 5 else '')
 
             data.append(tuple(record))
 
@@ -98,6 +103,7 @@ class CDLoader:
 
         self.DBHandler.find_unique_ids()
         self.DBHandler.load_cases(attributes)
+
         print('Loaded case data\n')
 
     def load_filing_data(self):

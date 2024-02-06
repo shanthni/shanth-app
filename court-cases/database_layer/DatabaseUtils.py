@@ -51,6 +51,16 @@ class DatabaseHandler:
         cur.execute(qry)
         self.commit()
 
+    def bulk_insert(self, table, fields, values):
+        cur = self.get_cur()
+
+        qry = f"""INSERT INTO {table} ({", ".join([i for i in fields])}) VALUES
+                       ({", ".join(["%s"] * len(fields))})"""
+
+        cur.executemany(qry, values)
+
+        self.commit()
+
     def get_con(self):
         return self.con
 

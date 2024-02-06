@@ -5,3 +5,5 @@ offenseIDB,D2FOFFCD
 prison_sevIDB,f_sev_pris
 crime_sevIDB,f_sev_off
 fine_sevIDB,f_sev_fine
+countyIDB,COUNTY_
+stateIDB,state_

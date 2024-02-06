@@ -3,6 +3,7 @@ id,id
 circuitIDB,CIRCUIT_
 districtIDB,DISTRICT_
 countyIDB,COUNTY_
+stateIDB,state_
 office,OFFICE_
 docket,DOCKET_
 defendant_no,DEFNO_

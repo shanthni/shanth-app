@@ -1,49 +1,87 @@
-import Table from 'react-bootstrap/Table';
+import DataTable from 'react-data-table-component';
 
 function CaseTable({county_data}) {
 
-    if (county_data) {
+    if (county_data && county_data.data) {
+
+        const tableCustomStyles = {
+            headCells: {
+                style: {
+                    paddingLeft: '8px',
+                    paddingRight: '8px',
+                    fontSize: '15px',
+                },
+            },
+            cells: {
+                style: {
+                    paddingLeft: '8px',
+                    paddingRight: '8px',
+                    fontSize: '15px'
+                },
+            },
+
+        }
+
+        const columns = [
+
+
+            {
+                name: "Offense",
+                selector: row => row.offense,
+                sortable: true,
+                wrap: true
+            },
+            {
+                name: "Proceeding Date",
+                selector: row => row.proceeding_date.slice(0,16)
+            },
+            {
+                name: "Disposition",
+                selector: row => row.disposition,
+                sortable: true,
+                wrap: true
+            },
+            {
+                name: "Prison Time (months)",
+                selector: row => row.prison_time,
+                sortable: true
+            },
+            {
+                name: "Total Fine ($)",
+                selector: row => row.fine,
+                sortable: true
+            },
+            {
+                name: "Probation Time (months)",
+                selector: row => row.prob_time,
+                sortable: true
+            }
+        ]
 
 
         return (
+            <div style = {{width: '80%'}}>
+                 <h5 style={{ textAlign: "center", marginBottom: "30px" }}>
+                    {county_data.name} Terminated Cases</h5>
 
-            <div>
-                <Table responsive="sm">
-                <thead>
-                  <tr>
-
-                    <th>Defendant Key</th>
-                    <th>Offense</th>
-                    <th>Proceeding Date</th>
-                    <th>Disposition</th>
-                    <th>Total Prison Time</th>
-                    <th>Total Fine</th>
-                    <th>Total Probation Time</th>
-
-                  </tr>
-                </thead>
-                <tbody>
-                  {county_data.map((data) =>
-                      <tr key = {data.id}>
-
-                        <td>{data.defendant_key}</td>
-                        <td>{data.offense}</td>
-                        <td>{data.proceeding_date}</td>
-                        <td>{data.disposition}</td>
-                        <td>{data.prison_time}</td>
-                        <td>{data.fine}</td>
-                        <td>{data.prob_time}</td>
-
-                      </tr>
-                     )}
-
-                </tbody>
-              </Table>
-
+                <DataTable
+                    customStyles ={tableCustomStyles}
+                    columns={columns}
+                    data={county_data.data}
+                    pagination
+                />
 
             </div>
-
         );
+    }
+
+    if (county_data) {
+        return (
+            <div>
+                <p> Select a County </p>
+            </div>
+
+        )
     }
 
     return (

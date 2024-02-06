@@ -33,16 +33,9 @@ class CaseDBHandler:
 
     def load_staging_data(self, fields, data):
 
-        cur = self.db.get_cur()
-        qry = 'INSERT INTO staging ({}) VALUES({})'.format(', '.join(fields),
-                                                           ', '.join(['%s'] * (len(fields))))
-
-        cur.executemany(qry, data)
-        self.db.commit()
+        self.db.bulk_insert('staging', fields, data)
 
     def load_mapping(self, name, attributes, data):
-
-        cur = self.db.get_cur()
 
         attributes = {
             code: 'VARCHAR (225)' for code in attributes
@@ -50,12 +43,7 @@ class CaseDBHandler:
         attributes['id'] = 'INT AUTO_INCREMENT NOT NULL PRIMARY KEY'
         self.db.create_table(name, attributes)
 
-        qry = "INSERT INTO {} ({}) VALUES ({})".format(name,
-                                                       ', '.join([i for i in attributes.keys() if i != 'id']),
-                                                       ', '.join(['%s'] * (len(attributes) - 1)))
-
-        cur.executemany(qry, data)
-        self.db.commit()
+        self.db.bulk_insert(name, [i for i in attributes.keys() if i != 'id'], data)
 
     def find_unique_ids(self):
         cur = self.db.get_cur()
@@ -93,19 +81,23 @@ class CaseDBHandler:
         for i in range(0, 5):
             order = i + 1
 
-            order_attributes = [[i[0], i[1] + str(order) + '_'] if i[0] != 'id' else [i[0], i[1]] for i in attributes]
+            order_attributes = [[i[0], i[1] + str(order) + '_'] if i[0] not in ['id', 'countyIDB', 'stateIDB']
+                                else [i[0], i[1]] for i in attributes]
 
             fields = ', '.join(['staging.' + i[1] + ' AS ' + i[0] for i in order_attributes])
             fields += ', {} AS offense_order'.format(order)
 
-            selects.append("SELECT {} FROM\ncase_ids LEFT JOIN staging ON case_ids.id = staging.id WHERE "
-                           "staging.D2{}OFFCD{}_ != '-8'".format(fields, offense_abbr, order))
+            selects.append(f"""SELECT {fields} FROM\ncase_ids LEFT JOIN staging ON case_ids.id = staging.id WHERE 
+                           staging.D2{offense_abbr}OFFCD{order}_ != '-8'""")
 
         qry += '\nUNION ALL\n'.join(selects) + ') cases'
 
         cur.execute(qry)
 
         qry = f"CREATE INDEX d2_code ON {offense_type}_data (offenseIDB)"
+        cur.execute(qry)
+
+        qry = f"CREATE INDEX county_code ON {offense_type}_data (countyIDB)"
         cur.execute(qry)
 
         self.db.commit()

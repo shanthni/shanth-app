@@ -21,14 +21,14 @@ IDB_id,meaning
 2200,Burglary; Postal
 2300,Interstate Commerce
 2400,Burglary; Other
-3100,Larceny &amp; Theft; Bank
-3200,Larceny &amp; Theft; Postal
+3100,Larceny; Theft; Bank
+3200,Larceny; Theft; Postal
 3300,Interstate Commerce
 3400,Theft of U.S. Property
 3500,Theft within Special Maritime Jurisdiction
 3600,Transportation of Stolen Property
-3700,Larceny &amp; Theft; Felony Other
-3800,Larceny &amp; Theft; Misdemeanor Other
+3700,Larceny; Theft; Felony Other
+3800,Larceny; Theft; Misdemeanor Other
 4100,Bank Embezzlement
 4200,Postal Embezzlement
 4310,Embezzles Public Moneys Or Property
@@ -46,18 +46,18 @@ IDB_id,meaning
 4700,Postal; Interstate Wire; Radio; etc.
 4800,Veterans and Allotments
 4900,Bankruptcy
-4910,Marketing Agreements &amp; Commodity Credit
-4920,Securities &amp; Exchange
+4910,Marketing Agreements ; Commodity Credit
+4920,Securities ; Exchange
 4931,Fraud; Excise Tax; Other
 4932,Fraud; Wagering Tax; Other
 4933,Fraud; Other Tax
-4940,Railroad Retirement &amp; Unemployment
+4940,Railroad Retirement ; Unemployment
 4941,Fraud Food Stamp Program
 4950,Social Security
 4960,False Personation
 4970,Nationality Laws
 4980,Passport Fraud
-4991,False Claims &amp; Statements
+4991,False Claims ; Statements
 4992,Fraud; Conspiracy to Defraud; Other
 4993,Fraud; Conspiracy (General); Other
 4994,Fraud; False Entries; Other
@@ -78,7 +78,7 @@ IDB_id,meaning
 6110,Sexual Abuse of Children
 6120,Interstate Domestic Violence
 6121,Violent Offenses; Other
-6200,White Slave &amp; Importing Aliens
+6200,White Slave ; Importing Aliens
 6300,Sex Offenses; Other
 6301,Transportation for Illegal Sexual Activity
 6400,Failure to Register
@@ -126,7 +126,7 @@ IDB_id,meaning
 7320,Escape; Aiding or Harboring
 7330,Prison Contraband
 7331,Fraud; Other
-7400,Extortion; Racketeering; &amp; Threats
+7400,Extortion; Racketeering; ; Threats
 7401,Threats Against The President
 7410,Racketeering; Arson
 7420,Racketeering; Bribery
@@ -146,15 +146,15 @@ IDB_id,meaning
 7481,Racketeering; Robbery
 7482,Racketeering; Threats
 7490,Racketeering; Extortion Credit Transaction
-7500,Gambling &amp; Lottery
-7520,Gambling &amp; Lottery; Travel/Racketeering
-7530,Gambling &amp; Lottery; Transmit Wager Info.
-7600,Kidnapping (18:1201;1202)
+7500,Gambling ; Lottery
+7520,Gambling ; Lottery; Travel/Racketeering
+7530,Gambling ; Lottery; Transmit Wager Info.
+7600,Kidnapping (18:1201; 1202)
 7601,Kidnapping; Govt Officials
 7610,Kidnapping (18:13)
 7611,Kidnap; Hostage
 7700,Perjury
-7800,Firearms &amp; Weapons
+7800,Firearms; Weapons
 7820,Firearms; Unlawful Possession
 7830,Firearms
 7831,Furtherance of Violence
@@ -188,12 +188,12 @@ IDB_id,meaning
 9130,Game Conservation Acts
 9140,Agriculture; Insecticide Act
 9150,National Park/Recreation Violations
-9160,Agriculture; Packers &amp; Stockyard Act
+9160,Agriculture; Packers ; Stockyard Act
 9170,Agriculture; Plant Quarantine
 9180,Agriculture; Handling Animals; Research
 9200,Antitrust Violations
 9300,Fair Labor Standards Act
-9400,Food &amp; Drug Act
+9400,Food; Drug Act
 9500,Migratory Bird Laws
 9600,Motor Carrier Act
 9710,National Defense; Selective Service Acts
@@ -226,7 +226,7 @@ IDB_id,meaning
 9905,Federal Statutes-Foreign Relations
 9906,Federal Statutes-Bank and Banking
 9907,Federal Statutes-Money and Finance
-9908,Federal Statutes-Public Health &amp; Welfare
+9908,Federal Statutes-Public Health; Welfare
 9909,Federal Statute-Census
 9910,Communication Acts (Including Wire Tapping)
 9911,Wire Interception
@@ -244,8 +244,8 @@ IDB_id,meaning
 9926,Federal Statutes-Extort/Oppress under Law
 9928,Federal Statutes-Removal from State Court
 9929,Federal Statutes-Labor Laws
-9930,Federal Statutes-Minerals &amp; Land Mining
-9931,Customs Laws (Except Narcotics &amp; Liquor)
+9930,Federal Statutes-Minerals; Land Mining
+9931,Customs Laws (Except Narcotics; Liquor)
 9932,Customs Laws - Import Injurious Animals
 9935,Patents and Trademarks
 9936,Patriotic Societies And Observances
@@ -253,9 +253,9 @@ IDB_id,meaning
 9940,Social Security
 9941,Connally Act/Hot Oil Act
 9942,Transport Convict-Made Goods Interstate
-9943,Railroad &amp; Transportation Acts
+9943,Railroad; Transportation Acts
 9944,Destruction of Property; Interstate Commerce
-9947,Telephones Telegraphs &amp; Radios
+9947,Telephones Telegraphs; Radios
 9949,Federal Statute-Transportation
 9950,War and National Defense; Other
 9951,Transportation of Strikebreakers
@@ -265,7 +265,7 @@ IDB_id,meaning
 9956,Federal Statute; Phw
 9957,Terrorist Activity
 9960,Liquor (Except Internal Revenue)
-9971,Maritime &amp; Shipping Laws
+9971,Maritime; Shipping Laws
 9972,Stowaways
 9973,Federal Boat Safety Act of 1971
 9974,Federal Water Pollution Control Act

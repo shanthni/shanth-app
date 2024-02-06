@@ -8,53 +8,24 @@ class GISDBHandler:
         creds = config["MySQL"]
         self.db = DatabaseHandler(creds['host'], creds['user'], creds['password'], 'casedata')
 
-    def create_gis_table(self, fields):
-        attributes = {
-            i: 'VARCHAR(50)' if i != 'GEOdata' else 'JSON' for i in fields
-        }
-        attributes['id'] = 'INT AUTO_INCREMENT PRIMARY KEY'
-
-        self.db.create_table('GIS', attributes)
-
-    def create_coordinate_table(self, fields):
+    def load_coordinate_data(self, fields, data):
         attributes = {
             i: "DOUBLE" if i != 'state_name' else 'VARCHAR(50)' for i in fields
         }
 
         self.db.create_table('gis_state_coordinates', attributes)
 
-    def load_coordinate_data(self, fields, data):
-
-        cur = self.db.get_cur()
-
-        qry = f'INSERT INTO gis_state_coordinates ({", ".join(fields)}) VALUES (%s, %s, %s)'
-
-        cur.executemany(qry, data)
+        self.db.bulk_insert('gis_state_coordinates', fields, data)
 
     def load_gis_data(self, fields, data):
-        cur = self.db.get_cur()
-        qry = 'INSERT INTO gis ({}) VALUES({})'.format(', '.join(fields),
-                                                       ', '.join(['%s'] * (len(fields))))
-
-        cur.executemany(qry, data)
-
-        self.db.commit()
-
-    def load_state_mapping(self, attributes, data):
-        cur = self.db.get_cur()
-
         attributes = {
-            code: 'VARCHAR (225)' for code in attributes
+            i: 'VARCHAR(50)' if i != 'GEOdata' else 'JSON' for i in fields
         }
-        attributes['id'] = 'INT AUTO_INCREMENT NOT NULL PRIMARY KEY'
-        self.db.create_table('state_code', attributes)
+        attributes['id'] = 'INT AUTO_INCREMENT PRIMARY KEY'
 
-        qry = "INSERT INTO {} ({}) VALUES ({})".format('state_code',
-                                                       ', '.join([i for i in attributes.keys() if i != 'id']),
-                                                       ', '.join(['%s'] * (len(attributes) - 1)))
+        self.db.create_table('gis', attributes)
 
-        cur.executemany(qry, data)
-        self.db.commit()
+        self.db.bulk_insert('gis', fields, data)
 
     def update_gis_ids(self):
         cur = self.db.get_cur()

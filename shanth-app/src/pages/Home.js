@@ -4,26 +4,14 @@ import Button from 'react-bootstrap/Button';
 
 const Home = () => {
     return (
-        <div>
-            <div
-                style={{
-                    display: "flex",
-                    justifyContent: "center",
-                    marginTop: "5vh"
-                }}
-            >
+        <>
+            <div style={{ display: "flex", justifyContent: "center", marginTop: "5vh" }} >
                 <h1>
                     Projects
                 </h1>
             </div>
 
-            <div
-                style={{
-                    display: "flex",
-                    justifyContent: "center",
-                    marginTop: "5vh"
-                }}
-            >
+             <div style={{ display: "flex", justifyContent: "center", marginTop: "5vh" }} >
                 <Card style={{ width: '50vh' }}>
                     <Card.Body>
                         <Card.Title>
@@ -44,25 +32,13 @@ const Home = () => {
             </div>
 
 
-            <div
-                style={{
-                    display: "flex",
-                    justifyContent: "center",
-                    marginTop: "5vh"
-                }}
-            >
+             <div style={{ display: "flex", justifyContent: "center", marginTop: "5vh" }} >
                 <h1>
                     About
                 </h1>
             </div>
 
-            <div
-                style={{
-                    display: "flex",
-                    justifyContent: "center",
-                    marginTop: "5vh"
-                }}
-            >
+             <div style={{ display: "flex", justifyContent: "center", marginTop: "5vh" }} >
                 <p style={{textAlign: "center"}}>
                     Hi, I'm Shanthni! I created this website to showcase some data analytics projects
                     that I'm working on. <br></br>
@@ -70,7 +46,7 @@ const Home = () => {
                 </p>
             </div>
 
-        </div>
+        </>
     );
 };
 

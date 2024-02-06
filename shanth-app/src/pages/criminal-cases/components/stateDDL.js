@@ -10,6 +10,7 @@ function StateDDL({state, setState, setCounty}) {
         variant="dark"
         style={{
                     maxWidth: "300px",
+                    textAlign: "center",
                 }}
         onChange = {e => {setState(e.target.value)
                           setCounty(0)} }

@@ -10,3 +10,5 @@ prison_time,PRISTIM
 prison_tcIDB,pris_tc
 prob_time,PROBMON
 fine,FINEAMT
+countyIDB,COUNTY_
+stateIDB,state_
