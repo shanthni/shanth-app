@@ -22,8 +22,8 @@ Users can select each state to view information on that state's data. The below 
 
 ### Data Sources
 
-https://www.fjc.gov/research/idb
-https://www.ers.usda.gov/data-products/county-level-data-sets/
+* https://www.fjc.gov/research/idb
+* https://www.ers.usda.gov/data-products/county-level-data-sets/
    
 
 
