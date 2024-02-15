@@ -49,6 +49,8 @@ class AppLogic:
                       'stats': [{i['title']: i['stat'] for i in stats}],
                       'state': name[0]['meaning']}
 
+        self.DBHandler.close_connection()
+
         return state_data
 
     def county_level_data(self, county):
@@ -60,5 +62,7 @@ class AppLogic:
 
         for i in range(0, len(case_data)):
             case_data[i]['id'] = i + 1
+
+        self.DBHandler.close_connection()
 
         return {'name': county_name[0]['meaning'], 'data': case_data}

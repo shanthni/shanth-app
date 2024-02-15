@@ -11,18 +11,20 @@ class DatabaseHandler:
         try:
             self.con = self.connect_to_db(host, user, password, db)
         except pymysql.Error as e:
-            DatabaseHandler.create_database(host, user, password, db)
+            self.con = self.create_database(host, user, password, db)
+
+        self.cur = self.con.cursor()
 
         print(f"Connected to database: {db}")
 
     @staticmethod
     def connect_to_db(host, user, password, db):
         return pymysql.connect(host=host,
-                              user=user,
-                              password=password,
-                              db=db,
-                              cursorclass=pymysql.cursors.DictCursor,
-                              charset='utf8mb4')
+                               user=user,
+                               password=password,
+                               db=db,
+                               cursorclass=pymysql.cursors.DictCursor,
+                               charset='utf8mb4')
 
     @staticmethod
     def create_database(host, user, password, db):
@@ -34,6 +36,9 @@ class DatabaseHandler:
             cur = con.cursor()
             qry = "CREATE DATABASE {} CHARACTER SET='{}' COLLATE='{}'".format(db, "utf8mb4", "utf8mb4_general_ci")
             cur.execute(qry)
+            cur.close()
+
+        return con
 
     @staticmethod
     def drop_database(host, user, password, db):
@@ -70,12 +75,21 @@ class DatabaseHandler:
         return self.con
 
     def get_cur(self):
-        try:
-            return self.con.cursor()
+        if self.con:
+            return self.cur
 
-        except pymysql.Error as e:
-            self.connect_to_db(self.host, self.user, self.password, self.db)
-            return self.con.cursor()
+        else:
+            self.con = self.connect_to_db(self.host, self.user, self.password, self.db)
+            self.cur = self.con.cursor()
+
+            return self.cur
+
+    def close_connection(self):
+        self.cur.close()
+        self.con.close()
+
+        self.con = None
+        self.cur = None
 
     @staticmethod
     def execute(cur, qry):

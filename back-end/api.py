@@ -1,5 +1,5 @@
 import json
-
+import os
 from flask import Flask, jsonify
 from flask_cors import CORS, cross_origin
 from court_cases.applogic_layer.court_cases_data import AppLogic
@@ -8,9 +8,8 @@ app = Flask(__name__)
 cors = CORS(app)
 app.config['CORS_HEADERS'] = 'Content-Type'
 
-creds = open('./config.json')
-creds = json.load(creds)
-creds = creds["remote"]
+creds = os.getenv("CLEARDB_DATABASE_JSON")
+creds = json.loads(creds)
 
 data_API = AppLogic(creds)
 

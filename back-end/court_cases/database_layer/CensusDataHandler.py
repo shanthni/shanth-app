@@ -1,4 +1,4 @@
-from court_cases.database_layer.DatabaseUtils import DatabaseHandler
+from court_cases.database_layer.Utils.DatabaseUtils import DatabaseHandler
 
 
 class CensusDBHandler:
