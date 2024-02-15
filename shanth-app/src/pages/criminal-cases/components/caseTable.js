@@ -23,12 +23,7 @@ function CaseTable({county_data, state}) {
         }
 
         const columns = [
-            {
-                name: "Defendant ID",
-                selector: row => row.defendant_key,
-                sortable: true,
-            },
-
+            
             {
                 name: "Offense",
                 selector: row => row.offense,
