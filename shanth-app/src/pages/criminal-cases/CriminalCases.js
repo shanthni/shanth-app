@@ -9,16 +9,19 @@ function Cases() {
 
     const [state_data, setState_data] = useState(null);
 
-    const [county_data, setCounty_data] = useState([]);
+    const [county_data, setCounty_data] = useState(null);
 
     const [county, setCounty] = useState(0);
-    const [state, setState] = useState(1);
+    const [state, setState] = useState(0);
 
 
     useEffect(() => {
         const call_state_data = async () => {
-            const response = await fetch('http://127.0.0.1:5000/state-data/'+state)
-            setState_data(await response.json())
+            setCounty_data(null);
+            fetch('https://criminal-cases-shanth-7fea69fdcbd2.herokuapp.com/state-data/'+state)
+            .then(response => response.json())
+            .then(json => setState_data(json))
+            .catch(error => console.error(error));
         };
         call_state_data()
     }, [state])
@@ -27,9 +30,10 @@ function Cases() {
 
     useEffect(() => {
         const call_county_data = async () => {
-            setCounty_data(null)
-            const response = await fetch('http://127.0.0.1:5000/county-data/'+county)
-            setCounty_data(await response.json())
+            fetch('https://criminal-cases-shanth-7fea69fdcbd2.herokuapp.com/county-data/'+county)
+            .then(response => response.json())
+            .then(json => setCounty_data(json))
+            .catch(error => console.error(error));
         };
         call_county_data()
     }, [county])
@@ -40,8 +44,18 @@ function Cases() {
         <>
             <div style={{display: "flex", justifyContent: "center", marginTop: "5vh"}} >
                 <h1>
-                    Criminal Court Cases Project
+                    Federal Criminal Court Case Data Visualization
                 </h1>
+
+            </div>
+
+            <div style={{display: "flex", justifyContent: "center", marginTop: "2vh"}} >
+                <p style={{ textAlign: "center",  width: "80%" }}>
+                    This project uses federal criminal court data from 2018 to 2023 to create interactive
+                    visualizations and statistics on the state and county level.
+                    Over 500,000 criminal cases are analyzed in this project along with census and GIS data on over
+                    3,000 US counties.
+                </p>
             </div>
 
            <div style={{display: "flex", justifyContent: "center", marginTop: "5vh"}} >
@@ -59,7 +73,8 @@ function Cases() {
 
             <div style={{display: "flex", justifyContent: "center", marginTop: "5vh"}} >
                <CaseTable
-                    county_data = {county_data} />
+                    county_data = {county_data}
+                    state = {state}/>
             </div>
 
 

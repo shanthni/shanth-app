@@ -7,7 +7,6 @@ function StateDDL({state, setState, setCounty}) {
     return (
 
     <Form.Select
-        variant="dark"
         style={{
                     maxWidth: "300px",
                     textAlign: "center",

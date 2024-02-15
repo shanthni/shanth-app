@@ -1,8 +1,8 @@
 import DataTable from 'react-data-table-component';
 
-function CaseTable({county_data}) {
+function CaseTable({county_data, state}) {
 
-    if (county_data && county_data.data) {
+    if (county_data) {
 
         const tableCustomStyles = {
             headCells: {
@@ -23,7 +23,11 @@ function CaseTable({county_data}) {
         }
 
         const columns = [
-
+            {
+                name: "Defendant ID",
+                selector: row => row.defendant_key,
+                sortable: true,
+            },
 
             {
                 name: "Offense",
@@ -75,21 +79,15 @@ function CaseTable({county_data}) {
         );
     }
 
-    if (county_data) {
+    else if (state > 0) {
         return (
-            <div>
-                <p> Select a County </p>
-            </div>
+            <p> Select a County </p>
 
         )
+
     }
 
-    return (
-        <div>
-            <p> Loading... </p>
-        </div>
 
-    )
 }
 
 export default CaseTable;
