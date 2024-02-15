@@ -3,23 +3,26 @@ import pymysql
 
 class DatabaseHandler:
     def __init__(self, host, user, password, db):
+        self.host = host
+        self.user = user
+        self.password = password
+        self.db = db
+
         try:
-            self.con = pymysql.connect(host=host,
-                                       user=user,
-                                       password=password,
-                                       db=db,
-                                       cursorclass=pymysql.cursors.DictCursor,
-                                       charset='utf8mb4')
+            self.con = self.connect_to_db(host, user, password, db)
         except pymysql.Error as e:
             DatabaseHandler.create_database(host, user, password, db)
-            self.con = pymysql.connect(host=host,
-                                       user=user,
-                                       password=password,
-                                       db=db,
-                                       cursorclass=pymysql.cursors.DictCursor,
-                                       charset='utf8mb4')
 
         print(f"Connected to database: {db}")
+
+    @staticmethod
+    def connect_to_db(host, user, password, db):
+        return pymysql.connect(host=host,
+                              user=user,
+                              password=password,
+                              db=db,
+                              cursorclass=pymysql.cursors.DictCursor,
+                              charset='utf8mb4')
 
     @staticmethod
     def create_database(host, user, password, db):
@@ -67,11 +70,15 @@ class DatabaseHandler:
         return self.con
 
     def get_cur(self):
-        cur = self.con.cursor()
-        return cur
+        try:
+            return self.con.cursor()
+
+        except pymysql.Error as e:
+            self.connect_to_db(self.host, self.user, self.password, self.db)
+            return self.con.cursor()
 
     @staticmethod
-    def execute(self, cur, qry):
+    def execute(cur, qry):
         cur.execute(qry)
 
     def commit(self):

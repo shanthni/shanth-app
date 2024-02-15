@@ -1,0 +1,9 @@
+{
+  "remote" : {
+    "host": "us-cluster-east-01.k8s.cleardb.net",
+    "user": "b9930a5e1449ef",
+    "password": "b96635fd",
+    "port": 3306,
+    "db": "heroku_4bc0d89f07fad0a"
+  }
+}
