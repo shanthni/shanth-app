@@ -6,7 +6,7 @@ from court_cases.etl.CensusData import CensusDataLoader
 
 config = open('config.json')
 config = json.load(config)
-config = config["local"]
+config = config["remote"]
 
 case_loader = CDLoader(config)
 case_loader.do_load()
