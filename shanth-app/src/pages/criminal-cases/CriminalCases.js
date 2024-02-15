@@ -12,7 +12,7 @@ function Cases() {
     const [county_data, setCounty_data] = useState(null);
 
     const [county, setCounty] = useState(0);
-    const [state, setState] = useState(0);
+    const [state, setState] = useState(1);
 
 
     useEffect(() => {

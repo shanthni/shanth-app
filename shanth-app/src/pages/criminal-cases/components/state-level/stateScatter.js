@@ -13,7 +13,8 @@ Chart.register(LinearScale, PointElement, LineElement, Tooltip, Legend);
 
 function StateScatter({census_data, state}) {
     const data = census_data.map(result => ({'x': result.income, 'y': result.case_ratio}) )
-    const labels = census_data.map(result => (result.county_name) )
+    const labels = census_data.map(result => (result.county_name + '\n Inc.: $' + result.income
+                                                + '\n Pop.: ' + result.population) )
 
     const data_points = {
         labels,
