@@ -23,7 +23,7 @@ function CaseTable({county_data, state}) {
         }
 
         const columns = [
-            
+
             {
                 name: "Offense",
                 selector: row => row.offense,
@@ -60,8 +60,11 @@ function CaseTable({county_data, state}) {
 
         return (
             <div style = {{width: '80%'}}>
-                 <h5 style={{ textAlign: "center", marginBottom: "30px" }}>
+                 <h5 style={{ textAlign: "center", marginBottom: "10px" }}>
                     {county_data.name} Terminated Cases</h5>
+
+                  <p style={{ textAlign: "center", marginBottom: "30px" }}>
+                    This table shows offenses from this county that have a recorded final disposition</p>
 
                 <DataTable
                     customStyles ={tableCustomStyles}

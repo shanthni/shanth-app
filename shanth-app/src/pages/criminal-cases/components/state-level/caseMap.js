@@ -10,20 +10,31 @@ function CaseMap({state_geo, setCounty, state}) {
     }
 
 
-    function onEachFeature(feature, layer, avgCaseCount) {
+    function onEachFeature(feature, layer) {
+        layer.bindPopup(feature.properties.NAME);
 
-        if (feature.properties) {
-            layer.bindPopup(feature.properties.NAME);
-            layer.options.fillOpacity = feature.properties.color;
+        layer.on({
+            mouseover: layer.openPopup(),
+            click: changeCounty
+        });
+    }
 
-            layer.on({
-                mouseover: layer.openPopup(),
-                mouseout: layer.closePopup(),
-                click: changeCounty
-            });
+    function getColor(d) {
+        return d > 0.64 ? '#bd0026' :
+               d > 0.36  ? '#f03b20' :
+               d > 0.16  ? '#fd8d3c' :
+               d > 0.04  ? '#fecc5c' :
+                          '#ffffb2';
+    }
 
-        }
-
+    function style(feature) {
+        return {
+            fillColor: getColor(feature.properties.color),
+            weight: 1,
+            opacity: 1,
+            color: 'white',
+            fillOpacity: 0.5
+        };
     }
 
     return (
@@ -53,6 +64,7 @@ function CaseMap({state_geo, setCounty, state}) {
                 />
 
                 <GeoJSON
+                    style={style}
                     data={state_geo.features}
                     onEachFeature = {onEachFeature}
 
