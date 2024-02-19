@@ -14,6 +14,7 @@ class AppLogic:
         for i in data:
             i['GEOdata'] = json.loads(i['GEOdata'])
 
+            i['GEOdata']['properties']['county_id'] = int(i['county'] if i['county'] else 0)
             i['case_ratio'] = (float(i['case_ratio']) if i['case_ratio'] < 1 else 1) if i['case_ratio'] else 0
             i['GEOdata']['properties']['color'] = i['case_ratio']/max_ratio
             i['county_name'] = i['GEOdata']['properties']['NAME']
