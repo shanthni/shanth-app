@@ -1,4 +1,4 @@
-from court_cases.database_layer.Utils.DatabaseUtils import DatabaseHandler
+from Utils.DatabaseUtils import DatabaseHandler
 
 
 class GISDBHandler:
