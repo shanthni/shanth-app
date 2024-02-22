@@ -53,7 +53,7 @@ function Cases() {
                 <p style={{ textAlign: "center",  width: "80%" }}>
                     This project uses federal criminal court data from 2018 to 2023 to create interactive
                     visualizations and statistics on the state and county level.
-                    Over 500,000 criminal cases are analyzed in this project along with census and GIS data on over
+                    Over 1 million criminal cases are analyzed in this project along with census and GIS data on over
                     3,000 US counties.
                 </p>
             </div>
