@@ -1,44 +1,15 @@
 import React from "react";
-import { useState, useEffect } from "react";
+import { useState } from "react";
+
 import StateDDL from "./components/stateDDL";
 import StateVisuals from "./components/stateVisuals";
-import CaseTable from "./components/caseTable";
+import CountyVisuals from "./components/countyVisuals";
 
 
 function Cases() {
 
-    const [state_data, setState_data] = useState(null);
-
-    const [county_data, setCounty_data] = useState(null);
-
     const [county, setCounty] = useState(0);
     const [state, setState] = useState(1);
-
-
-    useEffect(() => {
-        const call_state_data = async () => {
-            setCounty_data(null);
-            fetch('https://criminal-cases-shanth-7fea69fdcbd2.herokuapp.com/state-data/'+state)
-            .then(response => response.json())
-            .then(json => setState_data(json))
-            .catch(error => console.error(error));
-        };
-        call_state_data()
-    }, [state])
-
-
-
-    useEffect(() => {
-        const call_county_data = async () => {
-            fetch('https://criminal-cases-shanth-7fea69fdcbd2.herokuapp.com/county-data/'+county)
-            .then(response => response.json())
-            .then(json => setCounty_data(json))
-            .catch(error => console.error(error));
-        };
-        call_county_data()
-    }, [county])
-
-
 
     return (
         <>
@@ -67,14 +38,13 @@ function Cases() {
 
             <div style={{display: "flex", justifyContent: "center", marginTop: "5vh"}} >
                 < StateVisuals
-                    state_data = {state_data}
+                    state = {state}
                     setCounty = {setCounty}/>
             </div>
 
             <div style={{display: "flex", justifyContent: "center", marginTop: "5vh"}} >
-               <CaseTable
-                    county_data = {county_data}
-                    state = {state}/>
+               <CountyVisuals
+                    county = {county} />
             </div>
 
 
