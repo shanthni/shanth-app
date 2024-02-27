@@ -1,27 +1,26 @@
-import Form from 'react-bootstrap/Form';
-import States from '../data/StateOptions.json'
+import Form from "react-bootstrap/Form";
+import States from "../data/stateOptions.json";
 
-function StateDDL({state, setState, setCounty}) {
-
-
-    return (
-
+function StateDDL({ state, setState, setCounty }) {
+  return (
     <Form.Select
-        style={{
-                    maxWidth: "300px",
-                    textAlign: "center",
-                }}
-        onChange = {e => {setState(e.target.value)
-                          setCounty(0)} }
+      style={{
+        maxWidth: "300px",
+        textAlign: "center",
+      }}
+      onChange={(e) => {
+        setState(e.target.value);
+        setCounty(0);
+      }}
     >
-      {
-
-        States.States.map((result) => (<option key={result.id} value={result.id}> {result.state}
-                                        </option>))
-
-      }
+      {States.States.map((result) => (
+        <option key={result.id} value={result.id}>
+          {" "}
+          {result.state}
+        </option>
+      ))}
     </Form.Select>
-    );
+  );
 }
 
 export default StateDDL;

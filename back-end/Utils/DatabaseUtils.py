@@ -27,7 +27,8 @@ class DatabaseHandler:
             self.con = None
             self.cur = None
 
-            print(f"Failed to connect to db: {self.db}\n")
+            print(f"ERROR! Failed to connect to db: {self.db}\n")
+            print(e)
 
     def create_database(self):
         con = pymysql.connect(host=self.host,
