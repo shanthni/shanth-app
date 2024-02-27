@@ -1,5 +1,5 @@
 /config.json
-/court-cases/data/cases-data/raw-data/cr18to23.sas7bdat
-/court-cases/__pychache__
-/court-cases/database_layer/__pycache__
-/court-cases/etl/__pychache__
+/back-end/__init__.py
+/back-end/.idea/
+/back-end/Utils/__init__.py
+
