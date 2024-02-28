@@ -1,13 +1,11 @@
 import Form from "react-bootstrap/Form";
 import States from "../data/stateOptions.json";
+import styles from "../../styles.module.css";
 
 function StateDDL({ state, setState, setCounty }) {
   return (
     <Form.Select
-      style={{
-        maxWidth: "300px",
-        textAlign: "center",
-      }}
+      className={styles.form}
       onChange={(e) => {
         setState(e.target.value);
         setCounty(0);

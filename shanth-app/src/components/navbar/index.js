@@ -8,7 +8,6 @@ function MyNavbar() {
     <Navbar
       expand="lg"
       className="bg-body-tertiary"
-      style={{ marginLeft: "0px" }}
     >
       <Container>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

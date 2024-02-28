@@ -1,17 +1,18 @@
 import { MapContainer, GeoJSON, TileLayer } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
-
+import styles from "../../../styles.module.css";
 import style from "../../utils/mapStyle";
 import onEachFeatureClosure from "../../utils/mapClickEvent";
 
 function CaseMap({ state_geo, setCounty, state }) {
   return (
     <div>
-      <h3 style={{ textAlign: "center", marginBottom: "30px" }}>
-        {state} County Map
-      </h3>
+      <h3 className={styles.centerText}>{state} County Map</h3>
 
-      <p style={{ textAlign: "center", marginBottom: "30px", width: "600px" }}>
+      <p
+        className={styles.centerText}
+        style={{ width: "600px", marginBottom: "30px" }}
+      >
         This map displays the counties in {state}. The county&#39;s are shaded
         relative to the density of criminal cases to population in that county
         compared to other counties in the state. Darker color represents a

@@ -1,5 +1,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
+import styles from "../../styles.module.css";
 import CapitalizeState from "../utils/capitalizeState";
 import CaseMap from "./state-level/caseMap";
 import StateScatter from "./state-level/stateScatter";
@@ -24,24 +25,18 @@ function StateVisuals({ state, setCounty }) {
 
   return state_data ? (
     <div>
-      <div style={{ display: "flex", justifyContent: "center" }}>
-        <h2> Criminal Cases: {CapitalizeState(state_data.state)} </h2>
+      <div className={styles.centerDetail}>
+        <h2 className={styles.centerText}>
+          {" "}
+          Criminal Cases: {CapitalizeState(state_data.state)}{" "}
+        </h2>
       </div>
 
-      <div
-        style={{ display: "flex", justifyContent: "center", marginTop: "5vh" }}
-      >
+      <div className={styles.center}>
         <StateStats stats={state_data.stats} />
       </div>
 
-      <div
-        style={{
-          display: "grid",
-          gridTemplateColumns: "1fr 1fr",
-          justifyContent: "center",
-          marginTop: "5vh",
-        }}
-      >
+      <div className={styles.gridVisuals}>
         <StateScatter
           census_data={state_data.census_data}
           state={CapitalizeState(state_data.state)}
@@ -53,9 +48,7 @@ function StateVisuals({ state, setCounty }) {
         />
       </div>
 
-      <div
-        style={{ display: "flex", justifyContent: "center", marginTop: "5vh" }}
-      >
+      <div className={styles.center}>
         <CaseMap
           state_geo={state_data.geo_data}
           setCounty={setCounty}
