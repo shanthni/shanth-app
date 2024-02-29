@@ -8,14 +8,15 @@ import {
   Legend,
 } from "chart.js";
 import { Bar } from "react-chartjs-2";
+import styles from "../../../styles.module.css";
 
 Chart.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend);
 
-function StateBar({ offense_data, state }) {
-  const data = offense_data.map((result) => result.off_count);
-  const labels = offense_data.map((result) => result.offense);
+function StateBar({ offenseData, state }) {
+  const data = offenseData.map((result) => result.off_count);
+  const labels = offenseData.map((result) => result.offense);
 
-  const data_points = {
+  const dataPoints = {
     labels,
     datasets: [
       {
@@ -41,18 +42,18 @@ function StateBar({ offense_data, state }) {
 
   return (
     <>
-      <div style={{ marginLeft: "5vh", marginRight: "5vh", width: "400px" }}>
-        <h5 style={{ textAlign: "center" }}>
+      <div className = {styles.gridElement}>
+        <h5 className = {styles.centerText}>
           Number of Filed Offenses for Top 10 Offenses in {state}
         </h5>
 
-        <p style={{ textAlign: "center", fontSize: "12px" }}>
+        <p className = {styles.centerText} style={{ fontSize: "12px" }}>
           This chart displays the top 10 filed offenses in criminal court cases
           in {state}. Hover over each bar to see the offense name and number of
           cases filed under that offense.{" "}
         </p>
 
-        <Bar options={options} data={data_points} />
+        <Bar options={options} data={dataPoints} />
       </div>
     </>
   );

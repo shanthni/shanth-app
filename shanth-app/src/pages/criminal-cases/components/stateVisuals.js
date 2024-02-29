@@ -8,51 +8,51 @@ import StateBar from "./state-level/stateBar";
 import StateStats from "./state-level/stateStats";
 
 function StateVisuals({ state, setCounty }) {
-  const [state_data, setState_data] = useState(null);
+  const [stateData, setStateData] = useState(null);
 
   useEffect(() => {
-    const call_state_data = async () => {
+    const callStateData = async () => {
       fetch(
         "https://criminal-cases-shanth-7fea69fdcbd2.herokuapp.com/state-data/" +
           state,
       )
         .then((response) => response.json())
-        .then((json) => setState_data(json))
+        .then((json) => setStateData(json))
         .catch((error) => console.error(error));
     };
-    call_state_data();
+    callStateData();
   }, [state]);
 
-  return state_data ? (
+  return stateData ? (
     <div>
       <div className={styles.centerDetail}>
         <h2 className={styles.centerText}>
           {" "}
-          Criminal Cases: {CapitalizeState(state_data.state)}{" "}
+          Criminal Cases: {CapitalizeState(stateData.state)}{" "}
         </h2>
       </div>
 
       <div className={styles.center}>
-        <StateStats stats={state_data.stats} />
+        <StateStats stats={stateData.stats} />
       </div>
 
       <div className={styles.gridVisuals}>
         <StateScatter
-          census_data={state_data.census_data}
-          state={CapitalizeState(state_data.state)}
+          censusData={stateData.census_data}
+          state={CapitalizeState(stateData.state)}
         />
 
         <StateBar
-          offense_data={state_data.offense_data}
-          state={CapitalizeState(state_data.state)}
+          offenseData={stateData.offense_data}
+          state={CapitalizeState(stateData.state)}
         />
       </div>
 
       <div className={styles.center}>
         <CaseMap
-          state_geo={state_data.geo_data}
+          stateGeo={stateData.geo_data}
           setCounty={setCounty}
-          state={CapitalizeState(state_data.state)}
+          state={CapitalizeState(stateData.state)}
         />
       </div>
     </div>

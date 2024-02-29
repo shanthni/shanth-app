@@ -2,7 +2,7 @@ import DataTable from "react-data-table-component";
 import styles from "../../../styles.module.css";
 import { tableCustomStyles } from "../../styles";
 
-function CaseTable({ county_data }) {
+function CaseTable({ countyData }) {
   const columns = [
     {
       name: "Offense",
@@ -39,7 +39,7 @@ function CaseTable({ county_data }) {
 
   return (
     <div>
-      <h5 className={styles.centerText}>{county_data.name} Terminated Cases</h5>
+      <h5 className={styles.centerText}>{countyData.name} Terminated Cases</h5>
 
       <p className={styles.centerText} style={{ marginBottom: "30px" }}>
         This table shows offenses from this county that have a recorded final
@@ -49,7 +49,7 @@ function CaseTable({ county_data }) {
       <DataTable
         customStyles={tableCustomStyles}
         columns={columns}
-        data={county_data.data}
+        data={countyData.data}
         pagination
       />
     </div>

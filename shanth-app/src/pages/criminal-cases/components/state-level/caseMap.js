@@ -4,7 +4,7 @@ import styles from "../../../styles.module.css";
 import style from "../../utils/mapStyle";
 import onEachFeatureClosure from "../../utils/mapClickEvent";
 
-function CaseMap({ state_geo, setCounty, state }) {
+function CaseMap({ stateGeo, setCounty, state }) {
   return (
     <div>
       <h3 className={styles.centerText}>{state} County Map</h3>
@@ -24,7 +24,7 @@ function CaseMap({ state_geo, setCounty, state }) {
         key={state}
         style={{ height: "400px", width: "600px" }}
         zoom={7}
-        center={state_geo.coordinates}
+        center={stateGeo.coordinates}
       >
         <TileLayer
           opacity="0.4"
@@ -34,7 +34,7 @@ function CaseMap({ state_geo, setCounty, state }) {
 
         <GeoJSON
           style={style}
-          data={state_geo.features}
+          data={stateGeo.features}
           onEachFeature={onEachFeatureClosure(setCounty)}
         />
       </MapContainer>

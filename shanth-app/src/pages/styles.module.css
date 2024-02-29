@@ -24,6 +24,12 @@
   margin-top: 5vh;
 }
 
+.gridElement {
+  margin-left: 5vh; 
+  margin-right: 5vh;
+  width: 420px;
+}
+
 .form {
   max-width: 300px;
   text-align: center;

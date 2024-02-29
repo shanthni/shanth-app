@@ -7,15 +7,16 @@ import {
   Legend,
 } from "chart.js";
 import { Scatter } from "react-chartjs-2";
+import styles from "../../../styles.module.css";
 
 Chart.register(LinearScale, PointElement, LineElement, Tooltip, Legend);
 
-function StateScatter({ census_data, state }) {
-  const data = census_data.map((result) => ({
+function StateScatter({ censusData, state }) {
+  const data = censusData.map((result) => ({
     x: result.income,
     y: result.case_ratio,
   }));
-  const labels = census_data.map(
+  const labels = censusData.map(
     (result) =>
       result.county_name +
       "\n Inc.: $" +
@@ -24,7 +25,7 @@ function StateScatter({ census_data, state }) {
       result.population,
   );
 
-  const data_points = {
+  const dataPoints = {
     labels,
     datasets: [
       {
@@ -54,18 +55,18 @@ function StateScatter({ census_data, state }) {
 
   return (
     <>
-      <div style={{ marginLeft: "5vh", marginRight: "5vh", width: "400px" }}>
-        <h5 style={{ textAlign: "center" }}>
+      <div className = {styles.gridElement}>
+        <h5 className = {styles.centerText}>
           Case Ratio by Average Income for Counties in {state}
         </h5>
 
-        <p style={{ textAlign: "center", fontSize: "12px" }}>
+        <p className = {styles.centerText} style={{ fontSize: "12px" }}>
           This chart displays the normalized ratio of criminal cases from each
           county to that county&#39;s population by the average house hold
           income for that county. Hover over each point to see each county.{" "}
         </p>
 
-        <Scatter options={options} data={data_points} />
+        <Scatter options={options} data={dataPoints} />
       </div>
     </>
   );

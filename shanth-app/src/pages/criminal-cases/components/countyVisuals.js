@@ -3,24 +3,24 @@ import { useState, useEffect } from "react";
 import CaseTable from "./county-level/caseTable";
 
 function CountyVisuals({ county }) {
-  const [county_data, setCounty_data] = useState(null);
+  const [countyData, setCountyData] = useState(null);
 
   useEffect(() => {
-    const call_county_data = async () => {
+    const callCountyData = async () => {
       fetch(
         "https://criminal-cases-shanth-7fea69fdcbd2.herokuapp.com/county-data/" +
           county,
       )
         .then((response) => response.json())
-        .then((json) => setCounty_data(json))
+        .then((json) => setCountyData(json))
         .catch((error) => console.error(error));
     };
-    call_county_data();
+    callCountyData();
   }, [county]);
 
-  return county_data ? (
+  return countyData ? (
     <div style={{ width: "80%" }}>
-      <CaseTable county_data={county_data} />
+      <CaseTable countyData={countyData} />
     </div>
   ) : (
     <div>
