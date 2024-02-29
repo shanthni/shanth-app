@@ -25,7 +25,7 @@ function Cases() {
       </div>
 
       <div className={styles.center}>
-        <StateDDL state={state} setState={setState} setCounty={setCounty} />
+        <StateDDL setState={setState} setCounty={setCounty} />
       </div>
 
       <div className={styles.center}>

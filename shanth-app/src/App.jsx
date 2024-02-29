@@ -2,8 +2,8 @@ import React from "react";
 import "./App.css";
 import MyNavbar from "./components/navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
-import Cases from "./pages/criminal-cases/CriminalCases";
+import Home from "./pages/home/home";
+import Cases from "./pages/criminalCases/criminalCases";
 
 function App() {
   return (

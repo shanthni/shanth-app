@@ -1,6 +1,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
-import CaseTable from "./county-level/caseTable";
+import CaseTable from "./countyLevel/caseTable";
 
 function CountyVisuals({ county }) {
   const [countyData, setCountyData] = useState(null);

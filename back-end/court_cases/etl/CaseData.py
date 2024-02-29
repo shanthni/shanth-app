@@ -19,6 +19,7 @@ class CDLoader:
         self.DBHandler = CaseDBHandler(config)
 
     def do_load(self):
+        self.DBHandler.open_connection()
 
         self.load_staging_data()
 
@@ -31,6 +32,8 @@ class CDLoader:
         self.drop_staging_table()
 
         self.map_data()
+
+        self.DBHandler.close_connection()
         print("Finished loading case data\n")
 
     def create_staging_attributes(self):

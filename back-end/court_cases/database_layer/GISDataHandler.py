@@ -77,3 +77,9 @@ class GISDBHandler:
 
         self.db.commit()
 
+    def close_connection(self):
+        self.db.close_connection()
+
+    def open_connection(self):
+        self.db.connect_to_db()
+

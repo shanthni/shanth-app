@@ -2,10 +2,10 @@ import React from "react";
 import { useState, useEffect } from "react";
 import styles from "../../styles.module.css";
 import CapitalizeState from "../utils/capitalizeState";
-import CaseMap from "./state-level/caseMap";
-import StateScatter from "./state-level/stateScatter";
-import StateBar from "./state-level/stateBar";
-import StateStats from "./state-level/stateStats";
+import CaseMap from "./stateLevel/caseMap";
+import StateScatter from "./stateLevel/stateScatter";
+import StateBar from "./stateLevel/stateBar";
+import StateStats from "./stateLevel/stateStats";
 
 function StateVisuals({ state, setCounty }) {
   const [stateData, setStateData] = useState(null);

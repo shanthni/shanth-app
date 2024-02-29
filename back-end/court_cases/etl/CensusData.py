@@ -11,9 +11,13 @@ class CensusDataLoader:
         self.DBHandler = CensusDBHandler(config)
 
     def do_load(self):
+        self.DBHandler.open_connection()
+
         self.load_population_table()
         self.load_income_table()
         self.merge_tables()
+
+        self.DBHandler.close_connection()
         print("Finished loading census data\n")
 
     def load_population_table(self):

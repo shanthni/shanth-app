@@ -141,3 +141,10 @@ class CaseDBHandler:
                 self.db.commit()
                 print(f"Updated {new_column}")
             print("\n")
+
+
+    def close_connection(self):
+        self.db.close_connection()
+
+    def open_connection(self):
+        self.db.connect_to_db()

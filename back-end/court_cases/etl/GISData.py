@@ -11,9 +11,13 @@ class GISDataLoader:
         self.DBHandler = GISDBHandler(config)
 
     def do_load(self):
+        self.DBHandler.open_connection()
+
         self.load_gis_data()
         self.update_gis_ids()
         self.load_center_coordinates()
+
+        self.DBHandler.close_connection()
         print("Finished loading GIS data\n")
 
     def load_gis_data(self):

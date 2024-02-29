@@ -42,12 +42,12 @@ function StateBar({ offenseData, state }) {
 
   return (
     <>
-      <div className = {styles.gridElement}>
-        <h5 className = {styles.centerText}>
+      <div className={styles.gridElement}>
+        <h5 className={styles.centerText}>
           Number of Filed Offenses for Top 10 Offenses in {state}
         </h5>
 
-        <p className = {styles.centerText} style={{ fontSize: "12px" }}>
+        <p className={styles.centerText} style={{ fontSize: "12px" }}>
           This chart displays the top 10 filed offenses in criminal court cases
           in {state}. Hover over each bar to see the offense name and number of
           cases filed under that offense.{" "}

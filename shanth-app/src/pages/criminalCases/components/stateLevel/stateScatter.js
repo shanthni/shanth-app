@@ -55,12 +55,12 @@ function StateScatter({ censusData, state }) {
 
   return (
     <>
-      <div className = {styles.gridElement}>
-        <h5 className = {styles.centerText}>
+      <div className={styles.gridElement}>
+        <h5 className={styles.centerText}>
           Case Ratio by Average Income for Counties in {state}
         </h5>
 
-        <p className = {styles.centerText} style={{ fontSize: "12px" }}>
+        <p className={styles.centerText} style={{ fontSize: "12px" }}>
           This chart displays the normalized ratio of criminal cases from each
           county to that county&#39;s population by the average house hold
           income for that county. Hover over each point to see each county.{" "}
