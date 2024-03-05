@@ -8,6 +8,7 @@ import {
   Legend,
 } from "chart.js";
 import { Bar } from "react-chartjs-2";
+import { barStyle } from "../../styles";
 import styles from "../../../styles.module.css";
 
 Chart.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend);
@@ -26,19 +27,6 @@ function StateBar({ offenseData, state }) {
     ],
   };
 
-  const options = {
-    scales: {
-      y: {
-        beginAtZero: true,
-        title: { display: true, text: "Number of Cases Filed" },
-      },
-      x: {
-        ticks: { callback: () => "" },
-        title: { display: true, text: "Type of Offense" },
-      },
-    },
-    plugins: { legend: { display: false } },
-  };
 
   return (
     <>
@@ -53,7 +41,7 @@ function StateBar({ offenseData, state }) {
           cases filed under that offense.{" "}
         </p>
 
-        <Bar options={options} data={dataPoints} />
+        <Bar options={barStyle} data={dataPoints} />
       </div>
     </>
   );

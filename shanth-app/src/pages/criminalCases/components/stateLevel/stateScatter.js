@@ -7,6 +7,7 @@ import {
   Legend,
 } from "chart.js";
 import { Scatter } from "react-chartjs-2";
+import { scatterStyle } from "../../styles";
 import styles from "../../../styles.module.css";
 
 Chart.register(LinearScale, PointElement, LineElement, Tooltip, Legend);
@@ -39,19 +40,6 @@ function StateScatter({ censusData, state }) {
     ],
   };
 
-  const options = {
-    scales: {
-      y: {
-        beginAtZero: true,
-        title: { display: true, text: "Case Count by Population" },
-      },
-      x: {
-        beginAtZero: true,
-        title: { display: true, text: "Average Yearly House Hold Income" },
-      },
-    },
-    plugins: { legend: { display: false, labels: { usePointStyle: true } } },
-  };
 
   return (
     <>
@@ -66,7 +54,7 @@ function StateScatter({ censusData, state }) {
           income for that county. Hover over each point to see each county.{" "}
         </p>
 
-        <Scatter options={options} data={dataPoints} />
+        <Scatter options={scatterStyle} data={dataPoints} />
       </div>
     </>
   );

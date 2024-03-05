@@ -14,3 +14,32 @@ export const tableCustomStyles = {
     },
   },
 };
+
+export const scatterStyle = {
+    scales: {
+      y: {
+        beginAtZero: true,
+        title: { display: true, text: "Case Count by Population" },
+      },
+      x: {
+        beginAtZero: true,
+        title: { display: true, text: "Average Yearly House Hold Income" },
+      },
+    },
+    plugins: { legend: { display: false, labels: { usePointStyle: true } } },
+};
+
+export const barStyle = {
+  scales: {
+    y: {
+      beginAtZero: true,
+      title: { display: true, text: "Number of Cases Filed" },
+    },
+    x: {
+      ticks: { callback: () => "" },
+      title: { display: true, text: "Type of Offense" },
+    },
+  },
+  plugins: { legend: { display: false } },
+};
+
