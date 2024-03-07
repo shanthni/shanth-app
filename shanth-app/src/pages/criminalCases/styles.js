@@ -16,17 +16,17 @@ export const tableCustomStyles = {
 };
 
 export const scatterStyle = {
-    scales: {
-      y: {
-        beginAtZero: true,
-        title: { display: true, text: "Case Count by Population" },
-      },
-      x: {
-        beginAtZero: true,
-        title: { display: true, text: "Average Yearly House Hold Income" },
-      },
+  scales: {
+    y: {
+      beginAtZero: true,
+      title: { display: true, text: "Case Count by Population" },
     },
-    plugins: { legend: { display: false, labels: { usePointStyle: true } } },
+    x: {
+      beginAtZero: true,
+      title: { display: true, text: "Average Yearly House Hold Income" },
+    },
+  },
+  plugins: { legend: { display: false, labels: { usePointStyle: true } } },
 };
 
 export const barStyle = {
@@ -42,4 +42,3 @@ export const barStyle = {
   },
   plugins: { legend: { display: false } },
 };
-

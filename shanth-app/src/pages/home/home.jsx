@@ -9,7 +9,7 @@ const Home = () => {
         <h1>Projects</h1>
       </div>
 
-      <div className={styles.center}>
+      <div className={styles.center} style={{marginTop : "0vh"}}>
         <ProjectCards />
       </div>
 

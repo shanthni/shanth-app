@@ -34,3 +34,9 @@
   max-width: 300px;
   text-align: center;
 }
+
+.card {
+  margin-left: 5vh;
+  margin-right: 5vh;
+  width: 350px;
+}

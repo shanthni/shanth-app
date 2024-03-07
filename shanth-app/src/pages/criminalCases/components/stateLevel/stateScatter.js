@@ -40,7 +40,6 @@ function StateScatter({ censusData, state }) {
     ],
   };
 
-
   return (
     <>
       <div className={styles.gridElement}>

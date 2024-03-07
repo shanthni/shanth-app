@@ -27,7 +27,6 @@ function StateBar({ offenseData, state }) {
     ],
   };
 
-
   return (
     <>
       <div className={styles.gridElement}>

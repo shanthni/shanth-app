@@ -1,10 +1,11 @@
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
+import styles from "../../styles.module.css"
 
 function ProjectCards() {
   return (
-    <>
-      <Card style={{ width: "350px" }}>
+    <div className={styles.gridVisuals}>
+      <Card className={styles.card}>
         <Card.Body>
           <Card.Title>Criminal Court Cases Data</Card.Title>
 
@@ -19,7 +20,22 @@ function ProjectCards() {
           </Button>
         </Card.Body>
       </Card>
-    </>
+
+      <Card className={styles.card}>
+        <Card.Body>
+          <Card.Title>US Mortality Rates Exploration</Card.Title>
+
+          <Card.Text>
+            Upcoming project exploring US mortality rates and its causes, using 
+            mortality data from CDC wonder.
+          </Card.Text>
+
+          <Button href="/projects/us-mortality" variant="dark">
+            Explore project
+          </Button>
+        </Card.Body>
+      </Card>
+    </div>
   );
 }
 

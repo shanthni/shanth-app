@@ -17,6 +17,9 @@ function MyNavbar() {
               <NavDropdown.Item href="/projects/criminal-cases">
                 US Federal Court Criminal Cases
               </NavDropdown.Item>
+              <NavDropdown.Item href="/projects/us-mortality">
+                US Mortlity Rates Exploration
+              </NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
