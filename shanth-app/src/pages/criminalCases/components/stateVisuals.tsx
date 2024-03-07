@@ -7,7 +7,7 @@ import StateScatter from "./stateLevel/stateScatter";
 import StateBar from "./stateLevel/stateBar";
 import StateStats from "./stateLevel/stateStats";
 
-function StateVisuals({ state, setCounty }) {
+function StateVisuals({ state, setCounty }: { state: number; setCounty: any }) {
   const [stateData, setStateData] = useState(null);
 
   useEffect(() => {

@@ -1,4 +1,4 @@
-function getColor(d) {
+function getColor(d: number) {
   return d > 0.64
     ? "#bd0026"
     : d > 0.36
@@ -10,7 +10,7 @@ function getColor(d) {
           : "#ffffb2";
 }
 
-export default function style(feature) {
+export default function style(feature: { properties: { color: number } }) {
   return {
     fillColor: getColor(feature.properties.color),
     weight: 1,

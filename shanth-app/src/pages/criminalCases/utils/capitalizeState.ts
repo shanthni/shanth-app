@@ -1,4 +1,4 @@
-export default function CapitalizeState(name) {
+export default function CapitalizeState(name: string) {
   const stateSplit = name.toLowerCase().split(" ");
   for (var i = 0; i < stateSplit.length; i++) {
     stateSplit[i] =

@@ -1,9 +1,7 @@
 import React from "react";
 import styles from "../styles.module.css";
 
-
 function Mortality() {
-
   return (
     <>
       <div className={styles.center}>
@@ -11,11 +9,8 @@ function Mortality() {
       </div>
 
       <div className={styles.centerDetail}>
-        <p className={styles.centerText}>
-          Coming Soon ...
-        </p>
+        <p className={styles.centerText}>Coming Soon ...</p>
       </div>
-
     </>
   );
 }

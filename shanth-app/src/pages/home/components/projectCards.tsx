@@ -1,6 +1,7 @@
+import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
-import styles from "../../styles.module.css"
+import styles from "../../styles.module.css";
 
 function ProjectCards() {
   return (
@@ -26,7 +27,7 @@ function ProjectCards() {
           <Card.Title>US Mortality Rates Exploration</Card.Title>
 
           <Card.Text>
-            Upcoming project exploring US mortality rates and its causes, using 
+            Upcoming project exploring US mortality rates and its causes, using
             mortality data from CDC wonder.
           </Card.Text>
 

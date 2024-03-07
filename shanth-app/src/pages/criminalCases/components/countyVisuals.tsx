@@ -2,7 +2,7 @@ import React from "react";
 import { useState, useEffect } from "react";
 import CaseTable from "./countyLevel/caseTable";
 
-function CountyVisuals({ county }) {
+function CountyVisuals({ county }: { county: number }) {
   const [countyData, setCountyData] = useState(null);
 
   useEffect(() => {
