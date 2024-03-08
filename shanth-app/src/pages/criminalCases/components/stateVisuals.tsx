@@ -53,6 +53,7 @@ function StateVisuals({ state, setCounty }: { state: number; setCounty: any }) {
           stateGeo={stateData.geo_data}
           setCounty={setCounty}
           state={CapitalizeState(stateData.state)}
+          id={stateData.id}
         />
       </div>
     </div>

@@ -1,10 +1,12 @@
+import React from "react";
 import { MapContainer, GeoJSON, TileLayer } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import styles from "../../../styles.module.css";
 import style from "../../utils/mapStyle";
 import onEachFeatureClosure from "../../utils/mapClickEvent";
+import { geo } from "../models/stateData";
 
-function CaseMap({ stateGeo, setCounty, state }) {
+function CaseMap({ stateGeo, setCounty, state, id}: {stateGeo: geo, setCounty: any, state: String, id:number}) {
   return (
     <div>
       <h3 className={styles.centerText}>{state} County Map</h3>
@@ -21,13 +23,13 @@ function CaseMap({ stateGeo, setCounty, state }) {
       </p>
 
       <MapContainer
-        key={state}
+        key={id}
         style={{ height: "400px", width: "600px" }}
         zoom={7}
         center={stateGeo.coordinates}
       >
         <TileLayer
-          opacity="0.4"
+          opacity={0.4}
           attribution='&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
           url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
