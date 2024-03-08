@@ -27,8 +27,8 @@ function ProjectCards() {
           <Card.Title>US Mortality Rates Exploration</Card.Title>
 
           <Card.Text>
-            Upcoming project exploring US mortality rates and its causes, using
-            mortality data from CDC wonder.
+            Upcoming project exploring US mortality rates from 1999 to 2023 and
+            its causes, using mortality and health data from CDC wonder.
           </Card.Text>
 
           <Button href="/projects/us-mortality" variant="dark">

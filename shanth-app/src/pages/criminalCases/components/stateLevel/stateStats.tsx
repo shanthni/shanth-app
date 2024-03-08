@@ -3,7 +3,7 @@ import DataTable from "react-data-table-component";
 import { tableCustomStyles } from "../../styles";
 import { stats } from "../models/stateData";
 
-function StateStats({ stats } : {stats: stats[]}) {
+function StateStats({ stats }: { stats: stats[] }) {
   const columns = [
     {
       name: "Total Cases",
@@ -22,7 +22,7 @@ function StateStats({ stats } : {stats: stats[]}) {
       selector: (row: stats) => Math.round(row.probation) + " months",
     },
   ];
- 
+
   return (
     <DataTable
       customStyles={tableCustomStyles}

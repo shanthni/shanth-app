@@ -10,11 +10,17 @@ import {
 import { Scatter } from "react-chartjs-2";
 import { scatterStyle } from "../../styles";
 import styles from "../../../styles.module.css";
-import { census } from "../models/stateData"; 
+import { census } from "../models/stateData";
 
 Chart.register(LinearScale, PointElement, LineElement, Tooltip, Legend);
 
-function StateScatter({ censusData, state }: {censusData: census[], state: string}) {
+function StateScatter({
+  censusData,
+  state,
+}: {
+  censusData: census[];
+  state: string;
+}) {
   const data = censusData.map((result) => ({
     x: result.income,
     y: result.case_ratio,

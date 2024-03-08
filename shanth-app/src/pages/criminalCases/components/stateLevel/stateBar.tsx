@@ -15,7 +15,13 @@ import { offense } from "../models/stateData";
 
 Chart.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend);
 
-function StateBar({ offenseData, state }: {offenseData: offense[], state: string}) {
+function StateBar({
+  offenseData,
+  state,
+}: {
+  offenseData: offense[];
+  state: string;
+}) {
   const data = offenseData.map((result) => result.off_count);
   const labels = offenseData.map((result) => result.offense);
 

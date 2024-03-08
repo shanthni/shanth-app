@@ -4,7 +4,7 @@ import styles from "../../../styles.module.css";
 import { tableCustomStyles } from "../../styles";
 import { data, cases } from "../models/countyData";
 
-function CaseTable({ countyData }: {countyData: data}) {
+function CaseTable({ countyData }: { countyData: data }) {
   const columns = [
     {
       name: "Offense",

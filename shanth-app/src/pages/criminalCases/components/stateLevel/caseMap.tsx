@@ -6,7 +6,17 @@ import style from "../../utils/mapStyle";
 import onEachFeatureClosure from "../../utils/mapClickEvent";
 import { geo } from "../models/stateData";
 
-function CaseMap({ stateGeo, setCounty, state, id}: {stateGeo: geo, setCounty: any, state: String, id:number}) {
+function CaseMap({
+  stateGeo,
+  setCounty,
+  state,
+  id,
+}: {
+  stateGeo: geo;
+  setCounty: any;
+  state: String;
+  id: number;
+}) {
   return (
     <div>
       <h3 className={styles.centerText}>{state} County Map</h3>
