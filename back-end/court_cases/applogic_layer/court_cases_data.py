@@ -44,7 +44,8 @@ class AppLogic:
         geo_data, census_data = self.process_geo_data(geo_data, coordinates)
 
         state_data = {'geo_data': geo_data, 'census_data': census_data, 'offense_data': offense_data,
-                      'stats': [{i['title']: i['stat'] for i in stats}], 'state': name[0]['meaning']}
+                      'stats': [{i['title']: i['stat'] for i in stats}], 'state': name[0]['meaning'],
+                      'id': state}
 
         return state_data
 
