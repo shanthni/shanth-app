@@ -2,14 +2,18 @@
 
 Personal Website to host data science and computing projects I am working on.
 
+## US Mortality Data Exploration
+
+Upcoming project analyzing mortality data from CDC Wonder.
+
+## US Federal Court Criminal Data Project
+
 ### Stack
 
 1. Python
 2. MySQL
 3. ReactJS
 4. Flask API
-
-## US Federal Court Criminal Data Project
 
 This project processes over 1.2 million rows of federal court data and combines this with GIS and census data to create interactive visualizations of criminal cases in the US. 
 
