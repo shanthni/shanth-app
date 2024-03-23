@@ -1,3 +1,4 @@
+.idea
 back-end/.idea
 back-end/__pycache__
 back-end/__init__.py
@@ -11,6 +12,7 @@ back-end/court_cases/database_layer/__pycache__
 back-end/court_cases/database_layer/__init__.py
 back-end/court_cases/applogic_layer/__pycache__
 back-end/court_cases/applogic_layer/__init__.py
-.idea
-back-end/__pycache__/
 back-end/court_cases/data/cases-data/raw-data/cr18to23.sas7bdat
+back-end/mortality_data/__init__.py
+back-end/mortality_data/etl/__init__.py
+back-end/mortality_data/database_layer/__init__.py

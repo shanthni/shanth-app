@@ -6,8 +6,8 @@ import StateVisuals from "./components/stateVisuals";
 import CountyVisuals from "./components/countyVisuals";
 
 function Cases() {
-  const [county, setCounty] = useState(0);
-  const [state, setState] = useState(1);
+  const [county, setCounty] = useState<number>(0);
+  const [state, setState] = useState<number>(1);
 
   return (
     <>

@@ -29,7 +29,7 @@ function CaseMap({
         relative to the density of criminal cases to population in that county
         compared to other counties in the state. Darker color represents a
         higher density of cases. Click on each county to view the terminated
-        criminal cases in that county.{" "}
+        criminal cases in that county.
       </p>
 
       <MapContainer

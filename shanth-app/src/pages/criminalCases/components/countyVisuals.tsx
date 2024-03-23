@@ -1,15 +1,15 @@
 import React from "react";
 import { useState, useEffect } from "react";
+import { data } from "./models/countyData";
 import CaseTable from "./countyLevel/caseTable";
 
 function CountyVisuals({ county }: { county: number }) {
-  const [countyData, setCountyData] = useState(null);
+  const [countyData, setCountyData] = useState<data | null>(null);
 
   useEffect(() => {
     const callCountyData = async () => {
       fetch(
-        "https://criminal-cases-shanth-7fea69fdcbd2.herokuapp.com/county-data/" +
-          county,
+        `https://criminal-cases-shanth-7fea69fdcbd2.herokuapp.com/county-data/${county}`,
       )
         .then((response) => response.json())
         .then((json) => setCountyData(json))

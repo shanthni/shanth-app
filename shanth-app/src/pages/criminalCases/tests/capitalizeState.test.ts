@@ -26,6 +26,6 @@ describe("State names are capitalized correctly", () => {
   });
 
   test("Hawaii, all lower", () => {
-    expect(CapitalizeState("hawaii")).toBe("hawaii");
+    expect(CapitalizeState("hawaii")).toBe("Hawaii");
   });
 });
