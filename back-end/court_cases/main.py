@@ -5,6 +5,7 @@ from court_cases.etl.CaseData import CDLoader
 from court_cases.etl.GISData import GISDataLoader
 from court_cases.etl.CensusData import CensusDataLoader
 
+
 def main():
     config = os.getenv("CLEARDB_DATABASE_JSON")
     config = json.loads(config)
