@@ -1,0 +1,7 @@
+	"Year"	"Year Code"	"Gender"	"Gender Code"	Deaths	Population	Crude Rate
+	"2021"	"2021"	"Female"	"F"	1626123	167509003	970.77
+	"2021"	"2021"	"Male"	"M"	1838108	164384742	1118.17
+	"2022 (provisional)"	"2022"	"Female"	"F"	1560450	168004004	928.82
+	"2022 (provisional)"	"2022"	"Male"	"M"	1719078	165283553	1040.08
+	"2023 (provisional)"	"2023"	"Female"	"F"	1472072	168004004	876.21
+	"2023 (provisional)"	"2023"	"Male"	"M"	1613549	165283553	976.23

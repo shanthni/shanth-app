@@ -1,0 +1,460 @@
+	"Year"	"Year Code"	"Race"	"Single Race 6 Code"	"State"	"Residence State Code"	Deaths	Population	Crude Rate
+	"2021"	"2021"	"American Indian or Alaska Native"	"1002-5"	"Alabama"	"01"	145	36007	402.70
+	"2021"	"2021"	"American Indian or Alaska Native"	"1002-5"	"Alaska"	"02"	1482	114947	1289.29
+	"2021"	"2021"	"American Indian or Alaska Native"	"1002-5"	"Arizona"	"04"	4232	384338	1101.11
+	"2021"	"2021"	"American Indian or Alaska Native"	"1002-5"	"Arkansas"	"05"	81	32625	248.28
+	"2021"	"2021"	"American Indian or Alaska Native"	"1002-5"	"California"	"06"	2410	675009	357.03
+	"2021"	"2021"	"American Indian or Alaska Native"	"1002-5"	"Colorado"	"08"	544	97711	556.74
+	"2021"	"2021"	"American Indian or Alaska Native"	"1002-5"	"Connecticut"	"09"	44	24184	181.94
+	"2021"	"2021"	"American Indian or Alaska Native"	"1002-5"	"Delaware"	"10"	21	7124	294.78
+	"2021"	"2021"	"American Indian or Alaska Native"	"1002-5"	"District of Columbia"	"11"	Suppressed	4067	Suppressed
+	"2021"	"2021"	"American Indian or Alaska Native"	"1002-5"	"Florida"	"12"	398	117401	339.01
+	"2021"	"2021"	"American Indian or Alaska Native"	"1002-5"	"Georgia"	"13"	91	59144	153.86
+	"2021"	"2021"	"American Indian or Alaska Native"	"1002-5"	"Hawaii"	"15"	27	5698	473.85
+	"2021"	"2021"	"American Indian or Alaska Native"	"1002-5"	"Idaho"	"16"	241	33064	728.89
+	"2021"	"2021"	"American Indian or Alaska Native"	"1002-5"	"Illinois"	"17"	68	79517	85.52
+	"2021"	"2021"	"American Indian or Alaska Native"	"1002-5"	"Indiana"	"18"	74	30234	244.76
+	"2021"	"2021"	"American Indian or Alaska Native"	"1002-5"	"Iowa"	"19"	87	18190	478.28
+	"2021"	"2021"	"American Indian or Alaska Native"	"1002-5"	"Kansas"	"20"	244	36318	671.84
+	"2021"	"2021"	"American Indian or Alaska Native"	"1002-5"	"Kentucky"	"21"	30	14029	213.84
+	"2021"	"2021"	"American Indian or Alaska Native"	"1002-5"	"Louisiana"	"22"	193	37772	510.96
+	"2021"	"2021"	"American Indian or Alaska Native"	"1002-5"	"Maine"	"23"	90	9808	917.62
+	"2021"	"2021"	"American Indian or Alaska Native"	"1002-5"	"Maryland"	"24"	82	40213	203.91
+	"2021"	"2021"	"American Indian or Alaska Native"	"1002-5"	"Massachusetts"	"25"	75	37002	202.69
+	"2021"	"2021"	"American Indian or Alaska Native"	"1002-5"	"Michigan"	"26"	553	75117	736.18
+	"2021"	"2021"	"American Indian or Alaska Native"	"1002-5"	"Minnesota"	"27"	917	79214	1157.62
+	"2021"	"2021"	"American Indian or Alaska Native"	"1002-5"	"Mississippi"	"28"	186	18851	986.69
+	"2021"	"2021"	"American Indian or Alaska Native"	"1002-5"	"Missouri"	"29"	143	37409	382.26
+	"2021"	"2021"	"American Indian or Alaska Native"	"1002-5"	"Montana"	"30"	987	72551	1360.42
+	"2021"	"2021"	"American Indian or Alaska Native"	"1002-5"	"Nebraska"	"31"	196	31809	616.18
+	"2021"	"2021"	"American Indian or Alaska Native"	"1002-5"	"Nevada"	"32"	347	54145	640.87
+	"2021"	"2021"	"American Indian or Alaska Native"	"1002-5"	"New Hampshire"	"33"	14	4341	Unreliable
+	"2021"	"2021"	"American Indian or Alaska Native"	"1002-5"	"New Jersey"	"34"	58	64812	89.49
+	"2021"	"2021"	"American Indian or Alaska Native"	"1002-5"	"New Mexico"	"35"	2854	236809	1205.19
+	"2021"	"2021"	"American Indian or Alaska Native"	"1002-5"	"New York"	"36"	406	204766	198.28
+	"2021"	"2021"	"American Indian or Alaska Native"	"1002-5"	"North Carolina"	"37"	1473	168957	871.82
+	"2021"	"2021"	"American Indian or Alaska Native"	"1002-5"	"North Dakota"	"38"	512	43905	1166.15
+	"2021"	"2021"	"American Indian or Alaska Native"	"1002-5"	"Ohio"	"39"	126	35442	355.51
+	"2021"	"2021"	"American Indian or Alaska Native"	"1002-5"	"Oklahoma"	"40"	4289	386610	1109.39
+	"2021"	"2021"	"American Indian or Alaska Native"	"1002-5"	"Oregon"	"41"	591	80314	735.86
+	"2021"	"2021"	"American Indian or Alaska Native"	"1002-5"	"Pennsylvania"	"42"	110	55873	196.88
+	"2021"	"2021"	"American Indian or Alaska Native"	"1002-5"	"Rhode Island"	"44"	46	12780	359.94
+	"2021"	"2021"	"American Indian or Alaska Native"	"1002-5"	"South Carolina"	"45"	162	29675	545.91
+	"2021"	"2021"	"American Indian or Alaska Native"	"1002-5"	"South Dakota"	"46"	1109	80491	1377.79
+	"2021"	"2021"	"American Indian or Alaska Native"	"1002-5"	"Tennessee"	"47"	106	35117	301.85
+	"2021"	"2021"	"American Indian or Alaska Native"	"1002-5"	"Texas"	"48"	468	314130	148.98
+	"2021"	"2021"	"American Indian or Alaska Native"	"1002-5"	"Utah"	"49"	329	52657	624.80
+	"2021"	"2021"	"American Indian or Alaska Native"	"1002-5"	"Vermont"	"50"	17	2529	Unreliable
+	"2021"	"2021"	"American Indian or Alaska Native"	"1002-5"	"Virginia"	"51"	140	49207	284.51
+	"2021"	"2021"	"American Indian or Alaska Native"	"1002-5"	"Washington"	"53"	1314	152807	859.91
+	"2021"	"2021"	"American Indian or Alaska Native"	"1002-5"	"West Virginia"	"54"	11	4722	Unreliable
+	"2021"	"2021"	"American Indian or Alaska Native"	"1002-5"	"Wisconsin"	"55"	611	71663	852.60
+	"2021"	"2021"	"American Indian or Alaska Native"	"1002-5"	"Wyoming"	"56"	201	16435	1223.00
+	"2021"	"2021"	"Black or African American"	"2054-5"	"Alabama"	"01"	16898	1353084	1248.85
+	"2021"	"2021"	"Black or African American"	"2054-5"	"Alaska"	"02"	144	26689	539.55
+	"2021"	"2021"	"Black or African American"	"2054-5"	"Arizona"	"04"	3294	395177	833.55
+	"2021"	"2021"	"Black or African American"	"2054-5"	"Arkansas"	"05"	5577	475018	1174.06
+	"2021"	"2021"	"Black or African American"	"2054-5"	"California"	"06"	26724	2548114	1048.78
+	"2021"	"2021"	"Black or African American"	"2054-5"	"Colorado"	"08"	2137	271768	786.33
+	"2021"	"2021"	"Black or African American"	"2054-5"	"Connecticut"	"09"	3425	457331	748.91
+	"2021"	"2021"	"Black or African American"	"2054-5"	"Delaware"	"10"	2148	236621	907.78
+	"2021"	"2021"	"Black or African American"	"2054-5"	"District of Columbia"	"11"	4563	306925	1486.68
+	"2021"	"2021"	"Black or African American"	"2054-5"	"Florida"	"12"	35195	3710894	948.42
+	"2021"	"2021"	"Black or African American"	"2054-5"	"Georgia"	"13"	33407	3558724	938.74
+	"2021"	"2021"	"Black or African American"	"2054-5"	"Hawaii"	"15"	111	31000	358.06
+	"2021"	"2021"	"Black or African American"	"2054-5"	"Idaho"	"16"	71	17786	399.19
+	"2021"	"2021"	"Black or African American"	"2054-5"	"Illinois"	"17"	22313	1866607	1195.38
+	"2021"	"2021"	"Black or African American"	"2054-5"	"Indiana"	"18"	7101	695117	1021.55
+	"2021"	"2021"	"Black or African American"	"2054-5"	"Iowa"	"19"	968	137863	702.15
+	"2021"	"2021"	"Black or African American"	"2054-5"	"Kansas"	"20"	1986	181676	1093.15
+	"2021"	"2021"	"Black or African American"	"2054-5"	"Kentucky"	"21"	4312	389241	1107.80
+	"2021"	"2021"	"Black or African American"	"2054-5"	"Louisiana"	"22"	18194	1524944	1193.09
+	"2021"	"2021"	"Black or African American"	"2054-5"	"Maine"	"23"	105	24915	421.43
+	"2021"	"2021"	"Black or African American"	"2054-5"	"Maryland"	"24"	18686	1937665	964.36
+	"2021"	"2021"	"Black or African American"	"2054-5"	"Massachusetts"	"25"	3958	650915	608.07
+	"2021"	"2021"	"Black or African American"	"2054-5"	"Michigan"	"26"	17404	1419656	1225.93
+	"2021"	"2021"	"Black or African American"	"2054-5"	"Minnesota"	"27"	2266	423656	534.87
+	"2021"	"2021"	"Black or African American"	"2054-5"	"Mississippi"	"28"	13942	1119623	1245.24
+	"2021"	"2021"	"Black or African American"	"2054-5"	"Missouri"	"29"	8639	727065	1188.20
+	"2021"	"2021"	"Black or African American"	"2054-5"	"Montana"	"30"	54	6894	783.29
+	"2021"	"2021"	"Black or African American"	"2054-5"	"Nebraska"	"31"	744	104653	710.92
+	"2021"	"2021"	"Black or African American"	"2054-5"	"Nevada"	"32"	3437	334455	1027.64
+	"2021"	"2021"	"Black or African American"	"2054-5"	"New Hampshire"	"33"	102	26779	380.90
+	"2021"	"2021"	"Black or African American"	"2054-5"	"New Jersey"	"34"	12704	1419801	894.77
+	"2021"	"2021"	"Black or African American"	"2054-5"	"New Mexico"	"35"	472	57350	823.02
+	"2021"	"2021"	"Black or African American"	"2054-5"	"New York"	"36"	28924	3499231	826.58
+	"2021"	"2021"	"Black or African American"	"2054-5"	"North Carolina"	"37"	25668	2349731	1092.38
+	"2021"	"2021"	"Black or African American"	"2054-5"	"North Dakota"	"38"	75	27157	276.17
+	"2021"	"2021"	"Black or African American"	"2054-5"	"Ohio"	"39"	18397	1560246	1179.11
+	"2021"	"2021"	"Black or African American"	"2054-5"	"Oklahoma"	"40"	3558	312869	1137.22
+	"2021"	"2021"	"Black or African American"	"2054-5"	"Oregon"	"41"	798	96520	826.77
+	"2021"	"2021"	"Black or African American"	"2054-5"	"Pennsylvania"	"42"	16335	1586231	1029.80
+	"2021"	"2021"	"Black or African American"	"2054-5"	"Rhode Island"	"44"	426	96864	439.79
+	"2021"	"2021"	"Black or African American"	"2054-5"	"South Carolina"	"45"	17173	1383427	1241.34
+	"2021"	"2021"	"Black or African American"	"2054-5"	"South Dakota"	"46"	76	22058	344.55
+	"2021"	"2021"	"Black or African American"	"2054-5"	"Tennessee"	"47"	14014	1184041	1183.57
+	"2021"	"2021"	"Black or African American"	"2054-5"	"Texas"	"48"	34116	3894860	875.92
+	"2021"	"2021"	"Black or African American"	"2054-5"	"Utah"	"49"	206	50597	407.14
+	"2021"	"2021"	"Black or African American"	"2054-5"	"Vermont"	"50"	46	9393	489.73
+	"2021"	"2021"	"Black or African American"	"2054-5"	"Virginia"	"51"	18284	1729436	1057.22
+	"2021"	"2021"	"Black or African American"	"2054-5"	"Washington"	"53"	2424	348170	696.21
+	"2021"	"2021"	"Black or African American"	"2054-5"	"West Virginia"	"54"	905	66240	1366.24
+	"2021"	"2021"	"Black or African American"	"2054-5"	"Wisconsin"	"55"	3857	398693	967.41
+	"2021"	"2021"	"Black or African American"	"2054-5"	"Wyoming"	"56"	56	7087	790.18
+	"2021"	"2021"	"White"	"2106-3"	"Alabama"	"01"	51370	3472742	1479.23
+	"2021"	"2021"	"White"	"2106-3"	"Alaska"	"02"	3970	472939	839.43
+	"2021"	"2021"	"White"	"2106-3"	"Arizona"	"04"	71396	5969037	1196.11
+	"2021"	"2021"	"White"	"2106-3"	"Arkansas"	"05"	34020	2379596	1429.65
+	"2021"	"2021"	"White"	"2106-3"	"California"	"06"	261892	27902177	938.61
+	"2021"	"2021"	"White"	"2106-3"	"Colorado"	"08"	44454	5027045	884.30
+	"2021"	"2021"	"White"	"2106-3"	"Connecticut"	"09"	30329	2842528	1066.97
+	"2021"	"2021"	"White"	"2106-3"	"Delaware"	"10"	8956	686599	1304.40
+	"2021"	"2021"	"White"	"2106-3"	"District of Columbia"	"11"	1153	307274	375.24
+	"2021"	"2021"	"White"	"2106-3"	"Florida"	"12"	221464	16749416	1322.22
+	"2021"	"2021"	"White"	"2106-3"	"Georgia"	"13"	76667	6418207	1194.52
+	"2021"	"2021"	"White"	"2106-3"	"Hawaii"	"15"	3338	364116	916.74
+	"2021"	"2021"	"White"	"2106-3"	"Idaho"	"16"	17794	1764099	1008.67
+	"2021"	"2021"	"White"	"2106-3"	"Illinois"	"17"	99443	9668380	1028.54
+	"2021"	"2021"	"White"	"2106-3"	"Indiana"	"18"	70453	5732894	1228.93
+	"2021"	"2021"	"White"	"2106-3"	"Iowa"	"19"	32835	2875490	1141.89
+	"2021"	"2021"	"White"	"2106-3"	"Kansas"	"20"	29052	2522698	1151.62
+	"2021"	"2021"	"White"	"2106-3"	"Kentucky"	"21"	55640	3926400	1417.07
+	"2021"	"2021"	"White"	"2106-3"	"Louisiana"	"22"	38632	2886564	1338.34
+	"2021"	"2021"	"White"	"2106-3"	"Maine"	"23"	16974	1292011	1313.77
+	"2021"	"2021"	"White"	"2106-3"	"Maryland"	"24"	37421	3560883	1050.89
+	"2021"	"2021"	"White"	"2106-3"	"Massachusetts"	"25"	57209	5576809	1025.84
+	"2021"	"2021"	"White"	"2106-3"	"Michigan"	"26"	98036	7935511	1235.41
+	"2021"	"2021"	"White"	"2106-3"	"Minnesota"	"27"	46923	4735626	990.85
+	"2021"	"2021"	"White"	"2106-3"	"Mississippi"	"28"	26756	1733991	1543.03
+	"2021"	"2021"	"White"	"2106-3"	"Missouri"	"29"	64283	5095927	1261.46
+	"2021"	"2021"	"White"	"2106-3"	"Montana"	"30"	11502	980015	1173.66
+	"2021"	"2021"	"White"	"2106-3"	"Nebraska"	"31"	17789	1721884	1033.11
+	"2021"	"2021"	"White"	"2106-3"	"Nevada"	"32"	26411	2287445	1154.61
+	"2021"	"2021"	"White"	"2106-3"	"New Hampshire"	"33"	13972	1288649	1084.24
+	"2021"	"2021"	"White"	"2106-3"	"New Jersey"	"34"	67583	6593546	1024.99
+	"2021"	"2021"	"White"	"2106-3"	"New Mexico"	"35"	21626	1720615	1256.88
+	"2021"	"2021"	"White"	"2106-3"	"New York"	"36"	143048	13711327	1043.28
+	"2021"	"2021"	"White"	"2106-3"	"North Carolina"	"37"	89524	7392234	1211.05
+	"2021"	"2021"	"White"	"2106-3"	"North Dakota"	"38"	6590	671664	981.15
+	"2021"	"2021"	"White"	"2106-3"	"Ohio"	"39"	127822	9560342	1337.00
+	"2021"	"2021"	"White"	"2106-3"	"Oklahoma"	"40"	41273	2917360	1414.74
+	"2021"	"2021"	"White"	"2106-3"	"Oregon"	"41"	42201	3659596	1153.16
+	"2021"	"2021"	"White"	"2106-3"	"Pennsylvania"	"42"	136757	10502382	1302.15
+	"2021"	"2021"	"White"	"2106-3"	"Rhode Island"	"44"	10539	910242	1157.82
+	"2021"	"2021"	"White"	"2106-3"	"South Carolina"	"45"	47558	3561602	1335.30
+	"2021"	"2021"	"White"	"2106-3"	"South Dakota"	"46"	7905	753542	1049.05
+	"2021"	"2021"	"White"	"2106-3"	"Tennessee"	"47"	76278	5457887	1397.57
+	"2021"	"2021"	"White"	"2106-3"	"Texas"	"48"	226840	23012250	985.74
+	"2021"	"2021"	"White"	"2106-3"	"Utah"	"49"	21273	3013038	706.03
+	"2021"	"2021"	"White"	"2106-3"	"Vermont"	"50"	6751	607082	1112.04
+	"2021"	"2021"	"White"	"2106-3"	"Virginia"	"51"	64888	5942209	1091.98
+	"2021"	"2021"	"White"	"2106-3"	"Washington"	"53"	60194	5995925	1003.92
+	"2021"	"2021"	"White"	"2106-3"	"West Virginia"	"54"	28474	1660372	1714.92
+	"2021"	"2021"	"White"	"2106-3"	"Wisconsin"	"55"	55722	5106775	1091.14
+	"2021"	"2021"	"White"	"2106-3"	"Wyoming"	"56"	6274	534669	1173.44
+	"2022 (provisional)"	"2022"	"American Indian or Alaska Native"	"1002-5"	"Alabama"	"01"	97	36325	267.03
+	"2022 (provisional)"	"2022"	"American Indian or Alaska Native"	"1002-5"	"Alaska"	"02"	1367	115194	1186.69
+	"2022 (provisional)"	"2022"	"American Indian or Alaska Native"	"1002-5"	"Arizona"	"04"	3432	379712	903.84
+	"2022 (provisional)"	"2022"	"American Indian or Alaska Native"	"1002-5"	"Arkansas"	"05"	79	33266	237.48
+	"2022 (provisional)"	"2022"	"American Indian or Alaska Native"	"1002-5"	"California"	"06"	2105	672768	312.89
+	"2022 (provisional)"	"2022"	"American Indian or Alaska Native"	"1002-5"	"Colorado"	"08"	437	97828	446.70
+	"2022 (provisional)"	"2022"	"American Indian or Alaska Native"	"1002-5"	"Connecticut"	"09"	36	26709	134.79
+	"2022 (provisional)"	"2022"	"American Indian or Alaska Native"	"1002-5"	"Delaware"	"10"	25	7176	348.38
+	"2022 (provisional)"	"2022"	"American Indian or Alaska Native"	"1002-5"	"District of Columbia"	"11"	Suppressed	4688	Suppressed
+	"2022 (provisional)"	"2022"	"American Indian or Alaska Native"	"1002-5"	"Florida"	"12"	341	122012	279.48
+	"2022 (provisional)"	"2022"	"American Indian or Alaska Native"	"1002-5"	"Georgia"	"13"	102	60396	168.89
+	"2022 (provisional)"	"2022"	"American Indian or Alaska Native"	"1002-5"	"Hawaii"	"15"	Suppressed	5730	Suppressed
+	"2022 (provisional)"	"2022"	"American Indian or Alaska Native"	"1002-5"	"Idaho"	"16"	230	33188	693.02
+	"2022 (provisional)"	"2022"	"American Indian or Alaska Native"	"1002-5"	"Illinois"	"17"	75	79326	94.55
+	"2022 (provisional)"	"2022"	"American Indian or Alaska Native"	"1002-5"	"Indiana"	"18"	59	30332	194.51
+	"2022 (provisional)"	"2022"	"American Indian or Alaska Native"	"1002-5"	"Iowa"	"19"	82	18984	431.94
+	"2022 (provisional)"	"2022"	"American Indian or Alaska Native"	"1002-5"	"Kansas"	"20"	238	36176	657.89
+	"2022 (provisional)"	"2022"	"American Indian or Alaska Native"	"1002-5"	"Kentucky"	"21"	32	14509	220.55
+	"2022 (provisional)"	"2022"	"American Indian or Alaska Native"	"1002-5"	"Louisiana"	"22"	157	38096	412.12
+	"2022 (provisional)"	"2022"	"American Indian or Alaska Native"	"1002-5"	"Maine"	"23"	107	9786	1093.40
+	"2022 (provisional)"	"2022"	"American Indian or Alaska Native"	"1002-5"	"Maryland"	"24"	74	43339	170.75
+	"2022 (provisional)"	"2022"	"American Indian or Alaska Native"	"1002-5"	"Massachusetts"	"25"	70	36928	189.56
+	"2022 (provisional)"	"2022"	"American Indian or Alaska Native"	"1002-5"	"Michigan"	"26"	531	74397	713.74
+	"2022 (provisional)"	"2022"	"American Indian or Alaska Native"	"1002-5"	"Minnesota"	"27"	903	78885	1144.70
+	"2022 (provisional)"	"2022"	"American Indian or Alaska Native"	"1002-5"	"Mississippi"	"28"	136	18894	719.81
+	"2022 (provisional)"	"2022"	"American Indian or Alaska Native"	"1002-5"	"Missouri"	"29"	138	37863	364.47
+	"2022 (provisional)"	"2022"	"American Indian or Alaska Native"	"1002-5"	"Montana"	"30"	839	72451	1158.02
+	"2022 (provisional)"	"2022"	"American Indian or Alaska Native"	"1002-5"	"Nebraska"	"31"	181	32344	559.61
+	"2022 (provisional)"	"2022"	"American Indian or Alaska Native"	"1002-5"	"Nevada"	"32"	312	54495	572.53
+	"2022 (provisional)"	"2022"	"American Indian or Alaska Native"	"1002-5"	"New Hampshire"	"33"	Suppressed	4426	Suppressed
+	"2022 (provisional)"	"2022"	"American Indian or Alaska Native"	"1002-5"	"New Jersey"	"34"	69	67366	102.43
+	"2022 (provisional)"	"2022"	"American Indian or Alaska Native"	"1002-5"	"New Mexico"	"35"	2361	236149	999.79
+	"2022 (provisional)"	"2022"	"American Indian or Alaska Native"	"1002-5"	"New York"	"36"	424	205972	205.85
+	"2022 (provisional)"	"2022"	"American Indian or Alaska Native"	"1002-5"	"North Carolina"	"37"	1326	166226	797.71
+	"2022 (provisional)"	"2022"	"American Indian or Alaska Native"	"1002-5"	"North Dakota"	"38"	462	41435	1115.00
+	"2022 (provisional)"	"2022"	"American Indian or Alaska Native"	"1002-5"	"Ohio"	"39"	110	35841	306.91
+	"2022 (provisional)"	"2022"	"American Indian or Alaska Native"	"1002-5"	"Oklahoma"	"40"	3670	382638	959.13
+	"2022 (provisional)"	"2022"	"American Indian or Alaska Native"	"1002-5"	"Oregon"	"41"	520	80145	648.82
+	"2022 (provisional)"	"2022"	"American Indian or Alaska Native"	"1002-5"	"Pennsylvania"	"42"	108	57951	186.36
+	"2022 (provisional)"	"2022"	"American Indian or Alaska Native"	"1002-5"	"Rhode Island"	"44"	40	13379	298.98
+	"2022 (provisional)"	"2022"	"American Indian or Alaska Native"	"1002-5"	"South Carolina"	"45"	127	30137	421.41
+	"2022 (provisional)"	"2022"	"American Indian or Alaska Native"	"1002-5"	"South Dakota"	"46"	1022	77481	1319.03
+	"2022 (provisional)"	"2022"	"American Indian or Alaska Native"	"1002-5"	"Tennessee"	"47"	74	36702	201.62
+	"2022 (provisional)"	"2022"	"American Indian or Alaska Native"	"1002-5"	"Texas"	"48"	369	322443	114.44
+	"2022 (provisional)"	"2022"	"American Indian or Alaska Native"	"1002-5"	"Utah"	"49"	314	52130	602.34
+	"2022 (provisional)"	"2022"	"American Indian or Alaska Native"	"1002-5"	"Vermont"	"50"	13	2546	Unreliable
+	"2022 (provisional)"	"2022"	"American Indian or Alaska Native"	"1002-5"	"Virginia"	"51"	152	50576	300.54
+	"2022 (provisional)"	"2022"	"American Indian or Alaska Native"	"1002-5"	"Washington"	"53"	1280	154178	830.21
+	"2022 (provisional)"	"2022"	"American Indian or Alaska Native"	"1002-5"	"West Virginia"	"54"	12	4888	Unreliable
+	"2022 (provisional)"	"2022"	"American Indian or Alaska Native"	"1002-5"	"Wisconsin"	"55"	590	71555	824.54
+	"2022 (provisional)"	"2022"	"American Indian or Alaska Native"	"1002-5"	"Wyoming"	"56"	165	16273	1013.95
+	"2022 (provisional)"	"2022"	"Black or African American"	"2054-5"	"Alabama"	"01"	14797	1358620	1089.12
+	"2022 (provisional)"	"2022"	"Black or African American"	"2054-5"	"Alaska"	"02"	181	26837	674.44
+	"2022 (provisional)"	"2022"	"Black or African American"	"2054-5"	"Arizona"	"04"	3010	407994	737.76
+	"2022 (provisional)"	"2022"	"Black or African American"	"2054-5"	"Arkansas"	"05"	5105	476278	1071.85
+	"2022 (provisional)"	"2022"	"Black or African American"	"2054-5"	"California"	"06"	25291	2531957	998.87
+	"2022 (provisional)"	"2022"	"Black or African American"	"2054-5"	"Colorado"	"08"	1920	276966	693.23
+	"2022 (provisional)"	"2022"	"Black or African American"	"2054-5"	"Connecticut"	"09"	3356	467161	718.38
+	"2022 (provisional)"	"2022"	"Black or African American"	"2054-5"	"Delaware"	"10"	2253	242210	930.18
+	"2022 (provisional)"	"2022"	"Black or African American"	"2054-5"	"District of Columbia"	"11"	4182	302568	1382.17
+	"2022 (provisional)"	"2022"	"Black or African American"	"2054-5"	"Florida"	"12"	29383	3773336	778.70
+	"2022 (provisional)"	"2022"	"Black or African American"	"2054-5"	"Georgia"	"13"	29883	3613543	826.97
+	"2022 (provisional)"	"2022"	"Black or African American"	"2054-5"	"Hawaii"	"15"	105	31516	333.16
+	"2022 (provisional)"	"2022"	"Black or African American"	"2054-5"	"Idaho"	"16"	84	18882	444.87
+	"2022 (provisional)"	"2022"	"Black or African American"	"2054-5"	"Illinois"	"17"	21316	1851472	1151.30
+	"2022 (provisional)"	"2022"	"Black or African American"	"2054-5"	"Indiana"	"18"	6663	704235	946.13
+	"2022 (provisional)"	"2022"	"Black or African American"	"2054-5"	"Iowa"	"19"	909	141178	643.87
+	"2022 (provisional)"	"2022"	"Black or African American"	"2054-5"	"Kansas"	"20"	1800	182656	985.46
+	"2022 (provisional)"	"2022"	"Black or African American"	"2054-5"	"Kentucky"	"21"	4022	391006	1028.63
+	"2022 (provisional)"	"2022"	"Black or African American"	"2054-5"	"Louisiana"	"22"	16302	1504750	1083.37
+	"2022 (provisional)"	"2022"	"Black or African American"	"2054-5"	"Maine"	"23"	127	27405	463.42
+	"2022 (provisional)"	"2022"	"Black or African American"	"2054-5"	"Maryland"	"24"	17722	1951658	908.05
+	"2022 (provisional)"	"2022"	"Black or African American"	"2054-5"	"Massachusetts"	"25"	4050	660810	612.88
+	"2022 (provisional)"	"2022"	"Black or African American"	"2054-5"	"Michigan"	"26"	16096	1418343	1134.85
+	"2022 (provisional)"	"2022"	"Black or African American"	"2054-5"	"Minnesota"	"27"	2261	437333	517.00
+	"2022 (provisional)"	"2022"	"Black or African American"	"2054-5"	"Mississippi"	"28"	12327	1110533	1110.01
+	"2022 (provisional)"	"2022"	"Black or African American"	"2054-5"	"Missouri"	"29"	8194	725317	1129.71
+	"2022 (provisional)"	"2022"	"Black or African American"	"2054-5"	"Montana"	"30"	47	6993	672.10
+	"2022 (provisional)"	"2022"	"Black or African American"	"2054-5"	"Nebraska"	"31"	752	105601	712.11
+	"2022 (provisional)"	"2022"	"Black or African American"	"2054-5"	"Nevada"	"32"	3078	344357	893.84
+	"2022 (provisional)"	"2022"	"Black or African American"	"2054-5"	"New Hampshire"	"33"	108	27993	385.81
+	"2022 (provisional)"	"2022"	"Black or African American"	"2054-5"	"New Jersey"	"34"	11998	1429864	839.10
+	"2022 (provisional)"	"2022"	"Black or African American"	"2054-5"	"New Mexico"	"35"	491	58095	845.17
+	"2022 (provisional)"	"2022"	"Black or African American"	"2054-5"	"New York"	"36"	27809	3491532	796.47
+	"2022 (provisional)"	"2022"	"Black or African American"	"2054-5"	"North Carolina"	"37"	23984	2373876	1010.33
+	"2022 (provisional)"	"2022"	"Black or African American"	"2054-5"	"North Dakota"	"38"	89	28128	316.41
+	"2022 (provisional)"	"2022"	"Black or African American"	"2054-5"	"Ohio"	"39"	16596	1565976	1059.79
+	"2022 (provisional)"	"2022"	"Black or African American"	"2054-5"	"Oklahoma"	"40"	3272	318339	1027.84
+	"2022 (provisional)"	"2022"	"Black or African American"	"2054-5"	"Oregon"	"41"	795	99222	801.23
+	"2022 (provisional)"	"2022"	"Black or African American"	"2054-5"	"Pennsylvania"	"42"	15528	1582451	981.26
+	"2022 (provisional)"	"2022"	"Black or African American"	"2054-5"	"Rhode Island"	"44"	441	99051	445.23
+	"2022 (provisional)"	"2022"	"Black or African American"	"2054-5"	"South Carolina"	"45"	15196	1386941	1095.65
+	"2022 (provisional)"	"2022"	"Black or African American"	"2054-5"	"South Dakota"	"46"	49	23377	209.61
+	"2022 (provisional)"	"2022"	"Black or African American"	"2054-5"	"Tennessee"	"47"	12255	1180864	1037.80
+	"2022 (provisional)"	"2022"	"Black or African American"	"2054-5"	"Texas"	"48"	30473	4020772	757.89
+	"2022 (provisional)"	"2022"	"Black or African American"	"2054-5"	"Utah"	"49"	175	52777	331.58
+	"2022 (provisional)"	"2022"	"Black or African American"	"2054-5"	"Vermont"	"50"	42	9830	427.26
+	"2022 (provisional)"	"2022"	"Black or African American"	"2054-5"	"Virginia"	"51"	17300	1737910	995.45
+	"2022 (provisional)"	"2022"	"Black or African American"	"2054-5"	"Washington"	"53"	2446	357430	684.33
+	"2022 (provisional)"	"2022"	"Black or African American"	"2054-5"	"West Virginia"	"54"	808	66210	1220.36
+	"2022 (provisional)"	"2022"	"Black or African American"	"2054-5"	"Wisconsin"	"55"	3713	390428	951.01
+	"2022 (provisional)"	"2022"	"Black or African American"	"2054-5"	"Wyoming"	"56"	58	7162	809.83
+	"2022 (provisional)"	"2022"	"White"	"2106-3"	"Alabama"	"01"	46991	3494189	1344.83
+	"2022 (provisional)"	"2022"	"White"	"2106-3"	"Alaska"	"02"	3688	470101	784.51
+	"2022 (provisional)"	"2022"	"White"	"2106-3"	"Arizona"	"04"	65563	6024591	1088.26
+	"2022 (provisional)"	"2022"	"White"	"2106-3"	"Arkansas"	"05"	32322	2391860	1351.33
+	"2022 (provisional)"	"2022"	"White"	"2106-3"	"California"	"06"	245389	27607325	888.85
+	"2022 (provisional)"	"2022"	"White"	"2106-3"	"Colorado"	"08"	43285	5032844	860.05
+	"2022 (provisional)"	"2022"	"White"	"2106-3"	"Connecticut"	"09"	30651	2841487	1078.70
+	"2022 (provisional)"	"2022"	"White"	"2106-3"	"Delaware"	"10"	8889	692506	1283.60
+	"2022 (provisional)"	"2022"	"White"	"2106-3"	"District of Columbia"	"11"	1120	310692	360.49
+	"2022 (provisional)"	"2022"	"White"	"2106-3"	"Florida"	"12"	205313	17084651	1201.74
+	"2022 (provisional)"	"2022"	"White"	"2106-3"	"Georgia"	"13"	70404	6436683	1093.79
+	"2022 (provisional)"	"2022"	"White"	"2106-3"	"Hawaii"	"15"	3480	363260	957.99
+	"2022 (provisional)"	"2022"	"White"	"2106-3"	"Idaho"	"16"	16614	1795997	925.06
+	"2022 (provisional)"	"2022"	"White"	"2106-3"	"Illinois"	"17"	98218	9572606	1026.03
+	"2022 (provisional)"	"2022"	"White"	"2106-3"	"Indiana"	"18"	67969	5736944	1184.76
+	"2022 (provisional)"	"2022"	"White"	"2106-3"	"Iowa"	"19"	32640	2874863	1135.36
+	"2022 (provisional)"	"2022"	"White"	"2106-3"	"Kansas"	"20"	28717	2521658	1138.81
+	"2022 (provisional)"	"2022"	"White"	"2106-3"	"Kentucky"	"21"	52690	3920114	1344.09
+	"2022 (provisional)"	"2022"	"White"	"2106-3"	"Louisiana"	"22"	35427	2868945	1234.84
+	"2022 (provisional)"	"2022"	"White"	"2106-3"	"Maine"	"23"	17016	1301207	1307.71
+	"2022 (provisional)"	"2022"	"White"	"2106-3"	"Maryland"	"24"	36735	3530719	1040.44
+	"2022 (provisional)"	"2022"	"White"	"2106-3"	"Massachusetts"	"25"	57460	5546349	1036.00
+	"2022 (provisional)"	"2022"	"White"	"2106-3"	"Michigan"	"26"	92114	7906333	1165.07
+	"2022 (provisional)"	"2022"	"White"	"2106-3"	"Minnesota"	"27"	46663	4722046	988.19
+	"2022 (provisional)"	"2022"	"White"	"2106-3"	"Mississippi"	"28"	25122	1729691	1452.40
+	"2022 (provisional)"	"2022"	"White"	"2106-3"	"Missouri"	"29"	62747	5095625	1231.39
+	"2022 (provisional)"	"2022"	"White"	"2106-3"	"Montana"	"30"	10649	996179	1068.98
+	"2022 (provisional)"	"2022"	"White"	"2106-3"	"Nebraska"	"31"	17492	1721883	1015.86
+	"2022 (provisional)"	"2022"	"White"	"2106-3"	"Nevada"	"32"	25103	2290214	1096.10
+	"2022 (provisional)"	"2022"	"White"	"2106-3"	"New Hampshire"	"33"	14279	1291413	1105.69
+	"2022 (provisional)"	"2022"	"White"	"2106-3"	"New Jersey"	"34"	65947	6549769	1006.86
+	"2022 (provisional)"	"2022"	"White"	"2106-3"	"New Mexico"	"35"	20473	1714851	1193.86
+	"2022 (provisional)"	"2022"	"White"	"2106-3"	"New York"	"36"	137134	13501459	1015.70
+	"2022 (provisional)"	"2022"	"White"	"2106-3"	"North Carolina"	"37"	85888	7480293	1148.19
+	"2022 (provisional)"	"2022"	"White"	"2106-3"	"North Dakota"	"38"	6410	675085	949.51
+	"2022 (provisional)"	"2022"	"White"	"2106-3"	"Ohio"	"39"	120269	9509945	1264.67
+	"2022 (provisional)"	"2022"	"White"	"2106-3"	"Oklahoma"	"40"	39270	2936122	1337.48
+	"2022 (provisional)"	"2022"	"White"	"2106-3"	"Oregon"	"41"	41830	3640385	1149.05
+	"2022 (provisional)"	"2022"	"White"	"2106-3"	"Pennsylvania"	"42"	129384	10479634	1234.62
+	"2022 (provisional)"	"2022"	"White"	"2106-3"	"Rhode Island"	"44"	10050	905102	1110.37
+	"2022 (provisional)"	"2022"	"White"	"2106-3"	"South Carolina"	"45"	45231	3637779	1243.37
+	"2022 (provisional)"	"2022"	"White"	"2106-3"	"South Dakota"	"46"	7858	766469	1025.22
+	"2022 (provisional)"	"2022"	"White"	"2106-3"	"Tennessee"	"47"	71956	5521401	1303.22
+	"2022 (provisional)"	"2022"	"White"	"2106-3"	"Texas"	"48"	204613	23242116	880.35
+	"2022 (provisional)"	"2022"	"White"	"2106-3"	"Utah"	"49"	20747	3043600	681.66
+	"2022 (provisional)"	"2022"	"White"	"2106-3"	"Vermont"	"50"	6863	607189	1130.29
+	"2022 (provisional)"	"2022"	"White"	"2106-3"	"Virginia"	"51"	62792	5947332	1055.80
+	"2022 (provisional)"	"2022"	"White"	"2106-3"	"Washington"	"53"	60711	5982306	1014.84
+	"2022 (provisional)"	"2022"	"White"	"2106-3"	"West Virginia"	"54"	26594	1648034	1613.68
+	"2022 (provisional)"	"2022"	"White"	"2106-3"	"Wisconsin"	"55"	55517	5103755	1087.77
+	"2022 (provisional)"	"2022"	"White"	"2106-3"	"Wyoming"	"56"	5637	536573	1050.56
+	"2023 (provisional)"	"2023"	"American Indian or Alaska Native"	"1002-5"	"Alabama"	"01"	119	36325	327.60
+	"2023 (provisional)"	"2023"	"American Indian or Alaska Native"	"1002-5"	"Alaska"	"02"	1265	115194	1098.15
+	"2023 (provisional)"	"2023"	"American Indian or Alaska Native"	"1002-5"	"Arizona"	"04"	3051	379712	803.50
+	"2023 (provisional)"	"2023"	"American Indian or Alaska Native"	"1002-5"	"Arkansas"	"05"	63	33266	189.38
+	"2023 (provisional)"	"2023"	"American Indian or Alaska Native"	"1002-5"	"California"	"06"	1942	672768	288.66
+	"2023 (provisional)"	"2023"	"American Indian or Alaska Native"	"1002-5"	"Colorado"	"08"	464	97828	474.30
+	"2023 (provisional)"	"2023"	"American Indian or Alaska Native"	"1002-5"	"Connecticut"	"09"	27	26709	101.09
+	"2023 (provisional)"	"2023"	"American Indian or Alaska Native"	"1002-5"	"Delaware"	"10"	20	7176	278.71
+	"2023 (provisional)"	"2023"	"American Indian or Alaska Native"	"1002-5"	"District of Columbia"	"11"	Suppressed	4688	Suppressed
+	"2023 (provisional)"	"2023"	"American Indian or Alaska Native"	"1002-5"	"Florida"	"12"	324	122012	265.55
+	"2023 (provisional)"	"2023"	"American Indian or Alaska Native"	"1002-5"	"Georgia"	"13"	85	60396	140.74
+	"2023 (provisional)"	"2023"	"American Indian or Alaska Native"	"1002-5"	"Hawaii"	"15"	15	5730	Unreliable
+	"2023 (provisional)"	"2023"	"American Indian or Alaska Native"	"1002-5"	"Idaho"	"16"	196	33188	590.57
+	"2023 (provisional)"	"2023"	"American Indian or Alaska Native"	"1002-5"	"Illinois"	"17"	80	79326	100.85
+	"2023 (provisional)"	"2023"	"American Indian or Alaska Native"	"1002-5"	"Indiana"	"18"	53	30332	174.73
+	"2023 (provisional)"	"2023"	"American Indian or Alaska Native"	"1002-5"	"Iowa"	"19"	77	18984	405.60
+	"2023 (provisional)"	"2023"	"American Indian or Alaska Native"	"1002-5"	"Kansas"	"20"	215	36176	594.32
+	"2023 (provisional)"	"2023"	"American Indian or Alaska Native"	"1002-5"	"Kentucky"	"21"	33	14509	227.45
+	"2023 (provisional)"	"2023"	"American Indian or Alaska Native"	"1002-5"	"Louisiana"	"22"	146	38096	383.24
+	"2023 (provisional)"	"2023"	"American Indian or Alaska Native"	"1002-5"	"Maine"	"23"	102	9786	1042.31
+	"2023 (provisional)"	"2023"	"American Indian or Alaska Native"	"1002-5"	"Maryland"	"24"	88	43339	203.05
+	"2023 (provisional)"	"2023"	"American Indian or Alaska Native"	"1002-5"	"Massachusetts"	"25"	58	36928	157.06
+	"2023 (provisional)"	"2023"	"American Indian or Alaska Native"	"1002-5"	"Michigan"	"26"	460	74397	618.30
+	"2023 (provisional)"	"2023"	"American Indian or Alaska Native"	"1002-5"	"Minnesota"	"27"	745	78885	944.41
+	"2023 (provisional)"	"2023"	"American Indian or Alaska Native"	"1002-5"	"Mississippi"	"28"	125	18894	661.59
+	"2023 (provisional)"	"2023"	"American Indian or Alaska Native"	"1002-5"	"Missouri"	"29"	121	37863	319.57
+	"2023 (provisional)"	"2023"	"American Indian or Alaska Native"	"1002-5"	"Montana"	"30"	748	72451	1032.42
+	"2023 (provisional)"	"2023"	"American Indian or Alaska Native"	"1002-5"	"Nebraska"	"31"	156	32344	482.32
+	"2023 (provisional)"	"2023"	"American Indian or Alaska Native"	"1002-5"	"Nevada"	"32"	297	54495	545.00
+	"2023 (provisional)"	"2023"	"American Indian or Alaska Native"	"1002-5"	"New Hampshire"	"33"	Suppressed	4426	Suppressed
+	"2023 (provisional)"	"2023"	"American Indian or Alaska Native"	"1002-5"	"New Jersey"	"34"	57	67366	84.61
+	"2023 (provisional)"	"2023"	"American Indian or Alaska Native"	"1002-5"	"New Mexico"	"35"	2100	236149	889.27
+	"2023 (provisional)"	"2023"	"American Indian or Alaska Native"	"1002-5"	"New York"	"36"	332	205972	161.19
+	"2023 (provisional)"	"2023"	"American Indian or Alaska Native"	"1002-5"	"North Carolina"	"37"	1229	166226	739.35
+	"2023 (provisional)"	"2023"	"American Indian or Alaska Native"	"1002-5"	"North Dakota"	"38"	408	41435	984.67
+	"2023 (provisional)"	"2023"	"American Indian or Alaska Native"	"1002-5"	"Ohio"	"39"	103	35841	287.38
+	"2023 (provisional)"	"2023"	"American Indian or Alaska Native"	"1002-5"	"Oklahoma"	"40"	3326	382638	869.23
+	"2023 (provisional)"	"2023"	"American Indian or Alaska Native"	"1002-5"	"Oregon"	"41"	493	80145	615.14
+	"2023 (provisional)"	"2023"	"American Indian or Alaska Native"	"1002-5"	"Pennsylvania"	"42"	81	57951	139.77
+	"2023 (provisional)"	"2023"	"American Indian or Alaska Native"	"1002-5"	"Rhode Island"	"44"	36	13379	269.08
+	"2023 (provisional)"	"2023"	"American Indian or Alaska Native"	"1002-5"	"South Carolina"	"45"	120	30137	398.18
+	"2023 (provisional)"	"2023"	"American Indian or Alaska Native"	"1002-5"	"South Dakota"	"46"	869	77481	1121.57
+	"2023 (provisional)"	"2023"	"American Indian or Alaska Native"	"1002-5"	"Tennessee"	"47"	80	36702	217.97
+	"2023 (provisional)"	"2023"	"American Indian or Alaska Native"	"1002-5"	"Texas"	"48"	373	322443	115.68
+	"2023 (provisional)"	"2023"	"American Indian or Alaska Native"	"1002-5"	"Utah"	"49"	262	52130	502.59
+	"2023 (provisional)"	"2023"	"American Indian or Alaska Native"	"1002-5"	"Vermont"	"50"	Suppressed	2546	Suppressed
+	"2023 (provisional)"	"2023"	"American Indian or Alaska Native"	"1002-5"	"Virginia"	"51"	139	50576	274.83
+	"2023 (provisional)"	"2023"	"American Indian or Alaska Native"	"1002-5"	"Washington"	"53"	1130	154178	732.92
+	"2023 (provisional)"	"2023"	"American Indian or Alaska Native"	"1002-5"	"West Virginia"	"54"	Suppressed	4888	Suppressed
+	"2023 (provisional)"	"2023"	"American Indian or Alaska Native"	"1002-5"	"Wisconsin"	"55"	557	71555	778.42
+	"2023 (provisional)"	"2023"	"American Indian or Alaska Native"	"1002-5"	"Wyoming"	"56"	149	16273	915.63
+	"2023 (provisional)"	"2023"	"Black or African American"	"2054-5"	"Alabama"	"01"	13902	1358620	1023.24
+	"2023 (provisional)"	"2023"	"Black or African American"	"2054-5"	"Alaska"	"02"	132	26837	491.86
+	"2023 (provisional)"	"2023"	"Black or African American"	"2054-5"	"Arizona"	"04"	2878	407994	705.40
+	"2023 (provisional)"	"2023"	"Black or African American"	"2054-5"	"Arkansas"	"05"	4875	476278	1023.56
+	"2023 (provisional)"	"2023"	"Black or African American"	"2054-5"	"California"	"06"	23320	2531957	921.03
+	"2023 (provisional)"	"2023"	"Black or African American"	"2054-5"	"Colorado"	"08"	1958	276966	706.95
+	"2023 (provisional)"	"2023"	"Black or African American"	"2054-5"	"Connecticut"	"09"	3108	467161	665.30
+	"2023 (provisional)"	"2023"	"Black or African American"	"2054-5"	"Delaware"	"10"	2090	242210	862.89
+	"2023 (provisional)"	"2023"	"Black or African American"	"2054-5"	"District of Columbia"	"11"	3791	302568	1252.94
+	"2023 (provisional)"	"2023"	"Black or African American"	"2054-5"	"Florida"	"12"	27994	3773336	741.89
+	"2023 (provisional)"	"2023"	"Black or African American"	"2054-5"	"Georgia"	"13"	28076	3613543	776.97
+	"2023 (provisional)"	"2023"	"Black or African American"	"2054-5"	"Hawaii"	"15"	112	31516	355.38
+	"2023 (provisional)"	"2023"	"Black or African American"	"2054-5"	"Idaho"	"16"	72	18882	381.32
+	"2023 (provisional)"	"2023"	"Black or African American"	"2054-5"	"Illinois"	"17"	19052	1851472	1029.02
+	"2023 (provisional)"	"2023"	"Black or African American"	"2054-5"	"Indiana"	"18"	6159	704235	874.57
+	"2023 (provisional)"	"2023"	"Black or African American"	"2054-5"	"Iowa"	"19"	850	141178	602.08
+	"2023 (provisional)"	"2023"	"Black or African American"	"2054-5"	"Kansas"	"20"	1712	182656	937.28
+	"2023 (provisional)"	"2023"	"Black or African American"	"2054-5"	"Kentucky"	"21"	3853	391006	985.41
+	"2023 (provisional)"	"2023"	"Black or African American"	"2054-5"	"Louisiana"	"22"	15241	1504750	1012.86
+	"2023 (provisional)"	"2023"	"Black or African American"	"2054-5"	"Maine"	"23"	133	27405	485.31
+	"2023 (provisional)"	"2023"	"Black or African American"	"2054-5"	"Maryland"	"24"	16859	1951658	863.83
+	"2023 (provisional)"	"2023"	"Black or African American"	"2054-5"	"Massachusetts"	"25"	3836	660810	580.50
+	"2023 (provisional)"	"2023"	"Black or African American"	"2054-5"	"Michigan"	"26"	14594	1418343	1028.95
+	"2023 (provisional)"	"2023"	"Black or African American"	"2054-5"	"Minnesota"	"27"	2200	437333	503.05
+	"2023 (provisional)"	"2023"	"Black or African American"	"2054-5"	"Mississippi"	"28"	11246	1110533	1012.67
+	"2023 (provisional)"	"2023"	"Black or African American"	"2054-5"	"Missouri"	"29"	7537	725317	1039.13
+	"2023 (provisional)"	"2023"	"Black or African American"	"2054-5"	"Montana"	"30"	36	6993	514.80
+	"2023 (provisional)"	"2023"	"Black or African American"	"2054-5"	"Nebraska"	"31"	714	105601	676.13
+	"2023 (provisional)"	"2023"	"Black or African American"	"2054-5"	"Nevada"	"32"	2917	344357	847.09
+	"2023 (provisional)"	"2023"	"Black or African American"	"2054-5"	"New Hampshire"	"33"	112	27993	400.10
+	"2023 (provisional)"	"2023"	"Black or African American"	"2054-5"	"New Jersey"	"34"	10940	1429864	765.11
+	"2023 (provisional)"	"2023"	"Black or African American"	"2054-5"	"New Mexico"	"35"	450	58095	774.59
+	"2023 (provisional)"	"2023"	"Black or African American"	"2054-5"	"New York"	"36"	26151	3491532	748.98
+	"2023 (provisional)"	"2023"	"Black or African American"	"2054-5"	"North Carolina"	"37"	22661	2373876	954.60
+	"2023 (provisional)"	"2023"	"Black or African American"	"2054-5"	"North Dakota"	"38"	77	28128	273.75
+	"2023 (provisional)"	"2023"	"Black or African American"	"2054-5"	"Ohio"	"39"	15242	1565976	973.32
+	"2023 (provisional)"	"2023"	"Black or African American"	"2054-5"	"Oklahoma"	"40"	3014	318339	946.79
+	"2023 (provisional)"	"2023"	"Black or African American"	"2054-5"	"Oregon"	"41"	750	99222	755.88
+	"2023 (provisional)"	"2023"	"Black or African American"	"2054-5"	"Pennsylvania"	"42"	14071	1582451	889.19
+	"2023 (provisional)"	"2023"	"Black or African American"	"2054-5"	"Rhode Island"	"44"	437	99051	441.19
+	"2023 (provisional)"	"2023"	"Black or African American"	"2054-5"	"South Carolina"	"45"	14196	1386941	1023.55
+	"2023 (provisional)"	"2023"	"Black or African American"	"2054-5"	"South Dakota"	"46"	45	23377	192.50
+	"2023 (provisional)"	"2023"	"Black or African American"	"2054-5"	"Tennessee"	"47"	11457	1180864	970.22
+	"2023 (provisional)"	"2023"	"Black or African American"	"2054-5"	"Texas"	"48"	29447	4020772	732.37
+	"2023 (provisional)"	"2023"	"Black or African American"	"2054-5"	"Utah"	"49"	199	52777	377.06
+	"2023 (provisional)"	"2023"	"Black or African American"	"2054-5"	"Vermont"	"50"	36	9830	366.23
+	"2023 (provisional)"	"2023"	"Black or African American"	"2054-5"	"Virginia"	"51"	15972	1737910	919.03
+	"2023 (provisional)"	"2023"	"Black or African American"	"2054-5"	"Washington"	"53"	2483	357430	694.68
+	"2023 (provisional)"	"2023"	"Black or African American"	"2054-5"	"West Virginia"	"54"	772	66210	1165.99
+	"2023 (provisional)"	"2023"	"Black or African American"	"2054-5"	"Wisconsin"	"55"	3457	390428	885.44
+	"2023 (provisional)"	"2023"	"Black or African American"	"2054-5"	"Wyoming"	"56"	33	7162	460.77
+	"2023 (provisional)"	"2023"	"White"	"2106-3"	"Alabama"	"01"	44619	3494189	1276.95
+	"2023 (provisional)"	"2023"	"White"	"2106-3"	"Alaska"	"02"	3606	470101	767.07
+	"2023 (provisional)"	"2023"	"White"	"2106-3"	"Arizona"	"04"	61427	6024591	1019.60
+	"2023 (provisional)"	"2023"	"White"	"2106-3"	"Arkansas"	"05"	30430	2391860	1272.23
+	"2023 (provisional)"	"2023"	"White"	"2106-3"	"California"	"06"	230112	27607325	833.52
+	"2023 (provisional)"	"2023"	"White"	"2106-3"	"Colorado"	"08"	41350	5032844	821.60
+	"2023 (provisional)"	"2023"	"White"	"2106-3"	"Connecticut"	"09"	28817	2841487	1014.15
+	"2023 (provisional)"	"2023"	"White"	"2106-3"	"Delaware"	"10"	8344	692506	1204.90
+	"2023 (provisional)"	"2023"	"White"	"2106-3"	"District of Columbia"	"11"	1025	310692	329.91
+	"2023 (provisional)"	"2023"	"White"	"2106-3"	"Florida"	"12"	196387	17084651	1149.49
+	"2023 (provisional)"	"2023"	"White"	"2106-3"	"Georgia"	"13"	65789	6436683	1022.09
+	"2023 (provisional)"	"2023"	"White"	"2106-3"	"Hawaii"	"15"	3328	363260	916.15
+	"2023 (provisional)"	"2023"	"White"	"2106-3"	"Idaho"	"16"	15963	1795997	888.81
+	"2023 (provisional)"	"2023"	"White"	"2106-3"	"Illinois"	"17"	91360	9572606	954.39
+	"2023 (provisional)"	"2023"	"White"	"2106-3"	"Indiana"	"18"	62941	5736944	1097.12
+	"2023 (provisional)"	"2023"	"White"	"2106-3"	"Iowa"	"19"	31229	2874863	1086.28
+	"2023 (provisional)"	"2023"	"White"	"2106-3"	"Kansas"	"20"	26573	2521658	1053.79
+	"2023 (provisional)"	"2023"	"White"	"2106-3"	"Kentucky"	"21"	48710	3920114	1242.57
+	"2023 (provisional)"	"2023"	"White"	"2106-3"	"Louisiana"	"22"	33274	2868945	1159.80
+	"2023 (provisional)"	"2023"	"White"	"2106-3"	"Maine"	"23"	16388	1301207	1259.45
+	"2023 (provisional)"	"2023"	"White"	"2106-3"	"Maryland"	"24"	34576	3530719	979.29
+	"2023 (provisional)"	"2023"	"White"	"2106-3"	"Massachusetts"	"25"	55445	5546349	999.67
+	"2023 (provisional)"	"2023"	"White"	"2106-3"	"Michigan"	"26"	87003	7906333	1100.42
+	"2023 (provisional)"	"2023"	"White"	"2106-3"	"Minnesota"	"27"	44856	4722046	949.93
+	"2023 (provisional)"	"2023"	"White"	"2106-3"	"Mississippi"	"28"	23403	1729691	1353.02
+	"2023 (provisional)"	"2023"	"White"	"2106-3"	"Missouri"	"29"	57859	5095625	1135.46
+	"2023 (provisional)"	"2023"	"White"	"2106-3"	"Montana"	"30"	10261	996179	1030.04
+	"2023 (provisional)"	"2023"	"White"	"2106-3"	"Nebraska"	"31"	17215	1721883	999.78
+	"2023 (provisional)"	"2023"	"White"	"2106-3"	"Nevada"	"32"	23018	2290214	1005.06
+	"2023 (provisional)"	"2023"	"White"	"2106-3"	"New Hampshire"	"33"	13899	1291413	1076.26
+	"2023 (provisional)"	"2023"	"White"	"2106-3"	"New Jersey"	"34"	60717	6549769	927.01
+	"2023 (provisional)"	"2023"	"White"	"2106-3"	"New Mexico"	"35"	19383	1714851	1130.30
+	"2023 (provisional)"	"2023"	"White"	"2106-3"	"New York"	"36"	127672	13501459	945.62
+	"2023 (provisional)"	"2023"	"White"	"2106-3"	"North Carolina"	"37"	82465	7480293	1102.43
+	"2023 (provisional)"	"2023"	"White"	"2106-3"	"North Dakota"	"38"	6260	675085	927.29
+	"2023 (provisional)"	"2023"	"White"	"2106-3"	"Ohio"	"39"	111142	9509945	1168.69
+	"2023 (provisional)"	"2023"	"White"	"2106-3"	"Oklahoma"	"40"	36048	2936122	1227.74
+	"2023 (provisional)"	"2023"	"White"	"2106-3"	"Oregon"	"41"	39752	3640385	1091.97
+	"2023 (provisional)"	"2023"	"White"	"2106-3"	"Pennsylvania"	"42"	121677	10479634	1161.08
+	"2023 (provisional)"	"2023"	"White"	"2106-3"	"Rhode Island"	"44"	9782	905102	1080.76
+	"2023 (provisional)"	"2023"	"White"	"2106-3"	"South Carolina"	"45"	43150	3637779	1186.16
+	"2023 (provisional)"	"2023"	"White"	"2106-3"	"South Dakota"	"46"	7530	766469	982.43
+	"2023 (provisional)"	"2023"	"White"	"2106-3"	"Tennessee"	"47"	67269	5521401	1218.33
+	"2023 (provisional)"	"2023"	"White"	"2106-3"	"Texas"	"48"	192957	23242116	830.20
+	"2023 (provisional)"	"2023"	"White"	"2106-3"	"Utah"	"49"	20068	3043600	659.35
+	"2023 (provisional)"	"2023"	"White"	"2106-3"	"Vermont"	"50"	6673	607189	1099.00
+	"2023 (provisional)"	"2023"	"White"	"2106-3"	"Virginia"	"51"	59409	5947332	998.92
+	"2023 (provisional)"	"2023"	"White"	"2106-3"	"Washington"	"53"	57649	5982306	963.66
+	"2023 (provisional)"	"2023"	"White"	"2106-3"	"West Virginia"	"54"	23765	1648034	1442.02
+	"2023 (provisional)"	"2023"	"White"	"2106-3"	"Wisconsin"	"55"	52792	5103755	1034.38
+	"2023 (provisional)"	"2023"	"White"	"2106-3"	"Wyoming"	"56"	5364	536573	999.68

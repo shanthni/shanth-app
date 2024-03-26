@@ -1,0 +1,89 @@
+	"Year"	"Year Code"	"Race"	"Race Code"	Deaths	Population	Crude Rate
+	"1999"	"1999"	"American Indian or Alaska Native"	"1002-5"	11312	2832761	399.33
+	"1999"	"1999"	"Asian or Pacific Islander"	"A-PI"	33675	11346496	296.79
+	"1999"	"1999"	"Black or African American"	"2054-5"	285064	36173121	788.05
+	"1999"	"1999"	"White"	"2106-3"	2061348	228687790	901.38
+	"2000"	"2000"	"American Indian or Alaska Native"	"1002-5"	11363	2984150	380.78
+	"2000"	"2000"	"Asian or Pacific Islander"	"A-PI"	34875	11757685	296.61
+	"2000"	"2000"	"Black or African American"	"2054-5"	285826	36594309	781.07
+	"2000"	"2000"	"White"	"2106-3"	2071287	230085762	900.22
+	"2001"	"2001"	"American Indian or Alaska Native"	"1002-5"	11977	3097333	386.69
+	"2001"	"2001"	"Asian or Pacific Islander"	"A-PI"	37048	12429181	298.07
+	"2001"	"2001"	"Black or African American"	"2054-5"	287709	37249775	772.38
+	"2001"	"2001"	"White"	"2106-3"	2079691	232192666	895.67
+	"2002"	"2002"	"American Indian or Alaska Native"	"1002-5"	12415	3202471	387.67
+	"2002"	"2002"	"Asian or Pacific Islander"	"A-PI"	38332	12953763	295.91
+	"2002"	"2002"	"Black or African American"	"2054-5"	290051	37748424	768.38
+	"2002"	"2002"	"White"	"2106-3"	2102589	233720535	899.62
+	"2003"	"2003"	"American Indian or Alaska Native"	"1002-5"	13147	3312011	396.95
+	"2003"	"2003"	"Asian or Pacific Islander"	"A-PI"	40127	13461109	298.10
+	"2003"	"2003"	"Black or African American"	"2054-5"	291300	38209741	762.37
+	"2003"	"2003"	"White"	"2106-3"	2103714	235125072	894.72
+	"2004"	"2004"	"American Indian or Alaska Native"	"1002-5"	13124	3429452	382.69
+	"2004"	"2004"	"Asian or Pacific Islander"	"A-PI"	40533	13967014	290.21
+	"2004"	"2004"	"Black or African American"	"2054-5"	287315	38738798	741.67
+	"2004"	"2004"	"White"	"2106-3"	2056643	236670034	868.99
+	"2005"	"2005"	"American Indian or Alaska Native"	"1002-5"	13918	3554356	391.58
+	"2005"	"2005"	"Asian or Pacific Islander"	"A-PI"	43194	14494417	298.00
+	"2005"	"2005"	"Black or African American"	"2054-5"	292808	39280731	745.42
+	"2005"	"2005"	"White"	"2106-3"	2098097	238187095	880.86
+	"2006"	"2006"	"American Indian or Alaska Native"	"1002-5"	14037	3687683	380.65
+	"2006"	"2006"	"Asian or Pacific Islander"	"A-PI"	44707	15029851	297.45
+	"2006"	"2006"	"Black or African American"	"2054-5"	289971	39857107	727.53
+	"2006"	"2006"	"White"	"2106-3"	2077549	239805271	866.35
+	"2007"	"2007"	"American Indian or Alaska Native"	"1002-5"	14367	3829898	375.13
+	"2007"	"2007"	"Asian or Pacific Islander"	"A-PI"	45609	15559373	293.13
+	"2007"	"2007"	"Black or African American"	"2054-5"	289585	40451108	715.89
+	"2007"	"2007"	"White"	"2106-3"	2074151	241390828	859.25
+	"2008"	"2008"	"American Indian or Alaska Native"	"1002-5"	14776	3983929	370.89
+	"2008"	"2008"	"Asian or Pacific Islander"	"A-PI"	47903	16094699	297.63
+	"2008"	"2008"	"Black or African American"	"2054-5"	289072	41048959	704.21
+	"2008"	"2008"	"White"	"2106-3"	2120233	242966379	872.64
+	"2009"	"2009"	"American Indian or Alaska Native"	"1002-5"	14960	4141215	361.25
+	"2009"	"2009"	"Asian or Pacific Islander"	"A-PI"	49225	16609031	296.37
+	"2009"	"2009"	"Black or African American"	"2054-5"	286623	41632450	688.46
+	"2009"	"2009"	"White"	"2106-3"	2086355	244388833	853.70
+	"2010"	"2010"	"American Indian or Alaska Native"	"1002-5"	15565	4263538	365.07
+	"2010"	"2010"	"Asian or Pacific Islander"	"A-PI"	51162	16993326	301.07
+	"2010"	"2010"	"Black or African American"	"2054-5"	286959	42065334	682.17
+	"2010"	"2010"	"White"	"2106-3"	2114749	245423340	861.67
+	"2011"	"2011"	"American Indian or Alaska Native"	"1002-5"	15945	4347413	366.77
+	"2011"	"2011"	"Asian or Pacific Islander"	"A-PI"	53336	17471358	305.28
+	"2011"	"2011"	"Black or African American"	"2054-5"	290100	42678815	679.73
+	"2011"	"2011"	"White"	"2106-3"	2156077	247094331	872.57
+	"2012"	"2012"	"American Indian or Alaska Native"	"1002-5"	16527	4398436	375.75
+	"2012"	"2012"	"Asian or Pacific Islander"	"A-PI"	56352	18087959	311.54
+	"2012"	"2012"	"Black or African American"	"2054-5"	295222	43203092	683.34
+	"2012"	"2012"	"White"	"2106-3"	2175178	248224553	876.29
+	"2013"	"2013"	"American Indian or Alaska Native"	"1002-5"	17052	4457934	382.51
+	"2013"	"2013"	"Asian or Pacific Islander"	"A-PI"	59869	18630136	321.36
+	"2013"	"2013"	"Black or African American"	"2054-5"	302969	43696271	693.35
+	"2013"	"2013"	"White"	"2106-3"	2217103	249344498	889.17
+	"2014"	"2014"	"American Indian or Alaska Native"	"1002-5"	18008	4518981	398.50
+	"2014"	"2014"	"Asian or Pacific Islander"	"A-PI"	61570	19398214	317.40
+	"2014"	"2014"	"Black or African American"	"2054-5"	308960	44309394	697.28
+	"2014"	"2014"	"White"	"2106-3"	2237880	250630467	892.90
+	"2015"	"2015"	"American Indian or Alaska Native"	"1002-5"	19016	4577853	415.39
+	"2015"	"2015"	"Asian or Pacific Islander"	"A-PI"	66681	20102717	331.70
+	"2015"	"2015"	"Black or African American"	"2054-5"	320072	44863196	713.44
+	"2015"	"2015"	"White"	"2106-3"	2306861	251875054	915.88
+	"2016"	"2016"	"American Indian or Alaska Native"	"1002-5"	19708	4630155	425.64
+	"2016"	"2016"	"Asian or Pacific Islander"	"A-PI"	69658	20487524	340.00
+	"2016"	"2016"	"Black or African American"	"2054-5"	331788	45307020	732.31
+	"2016"	"2016"	"White"	"2106-3"	2323094	252702814	919.30
+	"2017"	"2017"	"American Indian or Alaska Native"	"1002-5"	20380	4689047	434.63
+	"2017"	"2017"	"Asian or Pacific Islander"	"A-PI"	74094	21210673	349.32
+	"2017"	"2017"	"Black or African American"	"2054-5"	340644	45883808	742.41
+	"2017"	"2017"	"White"	"2106-3"	2378385	253935650	936.61
+	"2018"	"2018"	"American Indian or Alaska Native"	"1002-5"	20768	4739288	438.21
+	"2018"	"2018"	"Asian or Pacific Islander"	"A-PI"	76877	21601064	355.89
+	"2018"	"2018"	"Black or African American"	"2054-5"	348853	46262846	754.07
+	"2018"	"2018"	"White"	"2106-3"	2392707	254564236	939.92
+	"2019"	"2019"	"American Indian or Alaska Native"	"1002-5"	21118	4785203	441.32
+	"2019"	"2019"	"Asian or Pacific Islander"	"A-PI"	79139	21814724	362.78
+	"2019"	"2019"	"Black or African American"	"2054-5"	354349	46599393	760.42
+	"2019"	"2019"	"White"	"2106-3"	2400232	255040203	941.12
+	"2020 "	"2020"	"American Indian or Alaska Native"	"1002-5"	28603	4899485	583.80
+	"2020 "	"2020"	"Asian or Pacific Islander"	"A-PI"	101814	22413737	454.25
+	"2020 "	"2020"	"Black or African American"	"2054-5"	459540	47181245	973.99
+	"2020 "	"2020"	"White"	"2106-3"	2793772	254989656	1095.64

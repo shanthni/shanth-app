@@ -1,0 +1,4 @@
+	"Year"	"Year Code"	Deaths	Population	Crude Rate
+	"2021"	"2021"	99399	21213526	468.56
+	"2022 (provisional)"	"2022"	95828	21832749	438.92
+	"2023 (provisional)"	"2023"	91254	21832749	417.97

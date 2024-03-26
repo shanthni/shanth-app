@@ -1,0 +1,10 @@
+	"Year"	"Year Code"	"Race"	"Single Race 6 Code"	Deaths	Population	Crude Rate
+	"2021"	"2021"	"American Indian or Alaska Native"	"1002-5"	28941	4367540	662.64
+	"2021"	"2021"	"Black or African American"	"2054-5"	456419	45060857	1012.89
+	"2021"	"2021"	"White"	"2106-3"	2859254	251461611	1137.05
+	"2022 (provisional)"	"2022"	"American Indian or Alaska Native"	"1002-5"	25414	4382234	579.93
+	"2022 (provisional)"	"2022"	"Black or African American"	"2054-5"	418842	45399743	922.56
+	"2022 (provisional)"	"2022"	"White"	"2106-3"	2719924	251602174	1081.04
+	"2023 (provisional)"	"2023"	"American Indian or Alaska Native"	"1002-5"	22944	4382234	523.57
+	"2023 (provisional)"	"2023"	"Black or African American"	"2054-5"	391249	45399743	861.79
+	"2023 (provisional)"	"2023"	"White"	"2106-3"	2560731	251602174	1017.77
